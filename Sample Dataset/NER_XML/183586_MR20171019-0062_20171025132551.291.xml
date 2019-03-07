@@ -1,0 +1,568 @@
+<ezNLP>
+<Section value="OPERATIVE REPORT" begin="0" end="16" secBegin="16" secEnd="17">
+<Paragraph pgNo="1" begin="0" end="16">
+<Sentence sentNo="1" begin="0" end="16" sentText="OPERATIVE REPORT">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="17" end="17">
+</Paragraph>
+</Section>
+<Section value="SURGEON" begin="18" end="26" secBegin="26" secEnd="75">
+<Paragraph pgNo="3" begin="18" end="35">
+<Sentence sentNo="2" begin="18" end="35" sentText="SURGEON: DOC5, MD">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="4" begin="36" end="60">
+<Sentence sentNo="3" begin="36" end="60" sentText="1ST ASSISTANT: Dr. Doc6.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="5" begin="61" end="75">
+<Sentence sentNo="4" begin="61" end="75" sentText="2ND ASSISTANT:">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="ANESTHESIA" begin="76" end="87" secBegin="87" secEnd="109">
+<Paragraph pgNo="6" begin="76" end="109">
+<Sentence sentNo="5" begin="76" end="109" sentText="ANESTHESIA: General endotracheal.">
+<RelationSet id="1">
+<procedure value="ANESTHESIA" begin="76" end="86" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="DATE OF SURGERY" begin="110" end="126" secBegin="126" secEnd="137">
+<Paragraph pgNo="7" begin="110" end="137">
+<Sentence sentNo="6" begin="110" end="137" sentText="DATE OF SURGERY: 10/19/2017">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="8" begin="138" end="138">
+</Paragraph>
+</Section>
+<Section value="ANESTHESIA" begin="138" end="138" secBegin="138" secEnd="139">
+<Paragraph pgNo="9" begin="138" end="138">
+</Paragraph>
+<Paragraph pgNo="10" begin="139" end="139">
+</Paragraph>
+</Section>
+<Section value="PREOPERATIVE DIAGNOSES" begin="140" end="163" secBegin="163" secEnd="206">
+<Paragraph pgNo="11" begin="140" end="205">
+<Sentence sentNo="7" begin="140" end="205" sentText="PREOPERATIVE DIAGNOSES: Chronic cholecystitis and cholelithiasis.">
+<RelationSet id="2">
+<problem value="cholelithiasis" begin="190" end="204" status="0" certainty="0" cui="C0008350" tui="T047" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="3">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Chronic" begin="164" end="171" status="0" certainty="0"/>
+<problem value="cholecystitis" begin="172" end="185" status="0" certainty="0"/>
+</Relation>
+<problem value="Chronic cholecystitis" begin="164" end="185" status="0" certainty="0" cui="C0085694" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="cholecystitis" begin="172" end="185" status="0" certainty="0" cui="C0008325;C1963083" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="MTH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="12" begin="206" end="206">
+</Paragraph>
+</Section>
+<Section value="POSTOPERATIVE DIAGNOSES" begin="207" end="231" secBegin="231" secEnd="274">
+<Paragraph pgNo="13" begin="207" end="273">
+<Sentence sentNo="8" begin="207" end="273" sentText="POSTOPERATIVE DIAGNOSES: Chronic cholecystitis and cholelithiasis.">
+<RelationSet id="4">
+<problem value="cholelithiasis" begin="258" end="272" status="0" certainty="0" cui="C0008350" tui="T047" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="5">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Chronic" begin="232" end="239" status="0" certainty="0"/>
+<problem value="cholecystitis" begin="240" end="253" status="0" certainty="0"/>
+</Relation>
+<problem value="Chronic cholecystitis" begin="232" end="253" status="0" certainty="0" cui="C0085694" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="cholecystitis" begin="240" end="253" status="0" certainty="0" cui="C0008325;C1963083" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="MTH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="14" begin="274" end="274">
+</Paragraph>
+</Section>
+<Section value="OPERATION" begin="275" end="285" secBegin="285" secEnd="376">
+<Paragraph pgNo="15" begin="275" end="360">
+<Sentence sentNo="9" begin="275" end="360" sentText="OPERATION: Robotic assisted single site laparoscopic cholecystectomy with fluorescent">
+<RelationSet id="6">
+<procedure value="Robotic assisted_SEP_laparoscopic cholecystectomy" begin="286_SEP_315" end="302_SEP_343" status="0" certainty="0" cui="C2319313" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="laparoscopic cholecystectomy" begin="315" end="343" status="0" certainty="0" cui="C0162522" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="cholecystectomy" begin="328" end="343" status="0" certainty="0" cui="C0008320" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="laparoscopic" begin="315" end="327" status="0" certainty="0" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="999;717;592" code="NO-CODE" sourceType="EZDI;RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="7">
+<modifier value="fluorescent" begin="349" end="360" status="0" certainty="0" cui="C0303920" tui="T109,T130" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="16" begin="361" end="375">
+<Sentence sentNo="10" begin="361" end="375" sentText="cholangiogram.">
+<RelationSet id="8">
+<procedure value="cholangiogram" begin="361" end="374" status="0" certainty="0" cui="C0008307" tui="T060" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="17" begin="376" end="376">
+</Paragraph>
+</Section>
+<Section value="ANESTHESIOLOGIST" begin="377" end="394" secBegin="394" secEnd="404">
+<Paragraph pgNo="18" begin="377" end="403">
+<Sentence sentNo="11" begin="377" end="403" sentText="ANESTHESIOLOGIST: Doc7, MD">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="19" begin="404" end="404">
+</Paragraph>
+</Section>
+<Section value="DESCRIPTION OF PROCEDURE" begin="405" end="430" secBegin="430" secEnd="4264">
+<Paragraph pgNo="20" begin="405" end="847">
+<Sentence sentNo="12" begin="405" end="550" sentText="DESCRIPTION OF PROCEDURE: The patient was placed supine on the operating table and satisfactory anesthesia was established via endotracheal tube.">
+<RelationSet id="9">
+<procedure value="anesthesia_SEP_endotracheal" begin="501_SEP_532" end="511_SEP_544" status="0" certainty="0" cui="C0002919" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="anesthesia" begin="501" end="511" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+<RelationSet id="10">
+<medicalDevice value="endotracheal tube" begin="532" end="549" status="0" certainty="0" cui="C0336630;C1260970" tui="T074;T074" rank="797;685" code="NO-CODE" sourceType="MTH;UMD"/>
+<medicalDevice value="tube" begin="545" end="549" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1704731;C1704730" tui="T077;T074;T081;T074;T074" rank="797;767;765;575;563" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="551" end="601" sentText="IV antibiotics were administered prophylactically.">
+<RelationSet id="11">
+<med value="antibiotics" begin="554" end="565" status="0" certainty="0" cui="C0003232" tui="T195" rank="797" code="NO-CODE" sourceType="MTH">
+<medData strength="" strengthBegin="" strengthEnd="" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="IV" routeBegin="551" routeEnd="553"/></med>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="602" end="707" sentText="A nasogastric tube was inserted and sequential compression devices were applied to the lower extremities.">
+<RelationSet id="12">
+<medicalDevice value="nasogastric tube" begin="604" end="620" status="0" certainty="0" cui="C0085678;C0812428" tui="T074;T061" rank="797;491" code="NO-CODE" sourceType="MTH;CCPSS"/>
+<medicalDevice value="tube" begin="616" end="620" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1704731;C1704730" tui="T077;T074;T081;T074;T074" rank="797;767;765;575;563" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="13">
+<medicalDevice value="sequential compression devices" begin="638" end="668" status="0" certainty="0" cui="C2711456" tui="T074" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="devices" begin="661" end="668" status="0" certainty="0" cui="C0699733;C0220819;C0025080" tui="T073;T073;T074" rank="797;788;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="14">
+<modifier value="lower" begin="689" end="694" status="0" certainty="0" cui="C0205251;C0441994;C1272755;C1708760;C2700150" tui="T080;T082;T081;T080;T170" rank="797;767;767;576;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="15">
+<anatomicalStructure value="lower extremities" begin="689" end="706" status="0" certainty="0" cui="C0023216" tui="T029" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="extremities" begin="695" end="706" status="0" certainty="0" cui="C0015385;C0278454" tui="T023;T023" rank="795;151" code="NO-CODE" sourceType="MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="15" begin="708" end="777" sentText="The abdomen was then prepped and draped in the usual sterile fashion.">
+<RelationSet id="16">
+<anatomicalStructure value="abdomen" begin="712" end="719" status="0" certainty="0" cui="C0000726;C1281594;C0230168" tui="T029;T023;T029" rank="797;765;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="16" begin="778" end="847" sentText="The periumbilical region was infiltrated with 10 cc of 0.5% Marcaine.">
+<RelationSet id="18">
+<anatomicalStructure value="periumbilical region" begin="782" end="802" status="0" certainty="0" cui="C0446495;C1280083;C0041638" tui="T029;T029;T023" rank="767;765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="19">
+<med value="Marcaine" begin="838" end="846" status="0" certainty="0" cui="C2945665" tui="T121" rank="790" code="NO-CODE" sourceType="MSH">
+<medData strength="10;0.5" strengthBegin="824;833" strengthEnd="826;836" strengthUnit="cc" strengthUnitBegin="827" strengthUnitEnd="829" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="21" begin="848" end="1118">
+<Sentence sentNo="17" begin="848" end="945" sentText="A vertical incision was made directly in the umbilicus, extending slightly upward in the midline.">
+<RelationSet id="20">
+<modifier value="vertical" begin="850" end="858" status="0" certainty="0" cui="C0205128;C0230003;C2697524" tui="T082;T029;T077" rank="797;797;575" code="NO-CODE" sourceType="MTH;MTH;NCI"/>
+<procedure value="incision was made" begin="859" end="876" status="0" certainty="0" cui="C2034895" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="incision_SEP_umbilicus" begin="859_SEP_893" end="867_SEP_902" status="0" certainty="0" cui="C0198493" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="859" end="867" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="21">
+<anatomicalStructure value="umbilicus" begin="893" end="902" status="0" certainty="0" cui="C0041638;C1280744" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="18" begin="946" end="1039" sentText="This was deepened through the subcutaneous tissues and bleeders were controlled with cautery.">
+<RelationSet id="22">
+<anatomicalStructure value="subcutaneous tissues" begin="976" end="996" status="0" certainty="0" cui="C0278403;C0222331" tui="T024;T024" rank="797;575" code="NO-CODE" sourceType="MTH;NCI"/>
+<anatomicalStructure value="tissues" begin="989" end="996" status="0" certainty="0" cui="C0040300" tui="T024" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="23">
+<medicalDevice value="cautery" begin="1031" end="1038" status="0" certainty="0" cui="C0007471;C0175641;C1706093" tui="T061;T074;T074" rank="795;684;575" code="NO-CODE" sourceType="MSH;UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="19" begin="1040" end="1118" sentText="The midline fascia and peritoneum were then opened for a length of about 5 cm.">
+<RelationSet id="24">
+<anatomicalStructure value="fascia" begin="1052" end="1058" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="25">
+<anatomicalStructure value="peritoneum" begin="1063" end="1073" status="0" certainty="0" cui="C0031153" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="22" begin="1119" end="1489">
+<Sentence sentNo="20" begin="1119" end="1249" sentText="With careful palpation, we did not identify any adhesions around the umbilicus from the patient&apos;s prior laparoscopic hysterectomy.">
+<RelationSet id="26">
+<procedure value="laparoscopic hysterectomy" begin="1223" end="1248" status="1" certainty="-2" cui="C0404089" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="laparoscopic" begin="1223" end="1235" status="1" certainty="-2" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="999;717;592" code="NO-CODE" sourceType="EZDI;RCD;MEDCIN"/>
+<procedure value="hysterectomy" begin="1236" end="1248" status="1" certainty="-2" cui="C0020699;C1548863" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MTH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="27">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="adhesions" begin="1167" end="1176" status="0" certainty="-2"/>
+<anatomicalStructure value="umbilicus" begin="1188" end="1197" status="0" certainty="-2"/>
+</Relation>
+<problem value="adhesions" begin="1167" end="1176" status="0" certainty="-2" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="umbilicus" begin="1188" end="1197" status="0" certainty="-2" cui="C0041638;C1280744" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="21" begin="1250" end="1349" sentText="The single site umbilical port was positioned in the wound and secured in place with nylon sutures.">
+<RelationSet id="28">
+<anatomicalStructure value="umbilical" begin="1266" end="1275" status="0" certainty="0" cui="C0041638;C1280744" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="port" begin="1276" end="1280" status="0" certainty="0" cui="S0000553;C0205054;C0452253;C1706409;C1880253;C0475311" tui="T082;T029;T168;T074;T077;T073" rank="999;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;AOD"/>
+<anatomicalStructure value="site" begin="1261" end="1265" status="0" certainty="0" cui="C0205145;C2945843;C1515974;C2825164" tui="T082;T080;T029;T082" rank="797;767;575;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="29">
+<problem value="wound" begin="1303" end="1308" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+</RelationSet>
+<RelationSet id="30">
+<medicalDevice value="nylon sutures" begin="1335" end="1348" status="0" certainty="0" cui="C0183734" tui="T074" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="sutures" begin="1341" end="1348" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="22" begin="1350" end="1431" sentText="This was connected to CO2 insufflation to an intraperitoneal pressure of 15 mmHg.">
+<RelationSet id="30">
+<meas value="intraperitoneal pressure" begin="1395" end="1419" status="0" certainty="0" code="EZBD000005">
+<measData value="15" begin="1423" end="1425" rank="1" unit="mmHg" unitBegin="1426" unitEnd="1430"/>
+</meas>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="23" begin="1432" end="1489" sentText="The camera port and video laparoscope were then inserted.">
+<RelationSet id="31">
+<medicalDevice value="camera" begin="1436" end="1442" status="0" certainty="0" cui="C0179533;C1654607;C1706254" tui="T074;T204;T074" rank="767;751;562" code="NO-CODE" sourceType="SNOMEDCTUS;NCBI;NCI"/>
+<medicalDevice value="port" begin="1443" end="1447" status="0" certainty="0" cui="S0000553;C0205054;C0452253;C1706409;C1880253;C0475311" tui="T082;T029;T168;T074;T077;T073" rank="999;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;AOD"/>
+</RelationSet>
+<RelationSet id="32">
+<medicalDevice value="video laparoscope" begin="1452" end="1469" status="0" certainty="0" cui="C0262861" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="laparoscope" begin="1458" end="1469" status="0" certainty="0" cui="C0031150;C0023036;C1883297" tui="T060;T074;T061" rank="797;795;592" code="NO-CODE" sourceType="MTH;MSH;MEDCIN"/>
+<medicalDevice value="video" begin="1452" end="1457" status="0" certainty="0" cui="C0042655;C3463807" tui="T073;T170" rank="767;576" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="23" begin="1490" end="1661">
+<Sentence sentNo="24" begin="1490" end="1576" sentText="There was no evidence of any intra-abdominal trauma from the umbilical port insertion.">
+<RelationSet id="33">
+<problem value="abdominal trauma" begin="1525" end="1541" status="0" certainty="-2" cui="C0848377" tui="T037" rank="753" code="NO-CODE" sourceType="SNOMEDCTVET"/>
+<problem value="trauma" begin="1535" end="1541" status="0" certainty="-2" cui="C0043251;C1510467;C0043250;C0548346" tui="T037;T037;T037;T058" rank="791;789;530;317" code="NO-CODE" sourceType="MSH;MSH;NCI;PCDS"/>
+<modifier value="intra-abdominal" begin="1519" end="1534" status="0" certainty="-2" cui="C1512910;C1512911" tui="T082;T169" rank="797;575" code="NO-CODE" sourceType="MTH;NCI"/>
+<anatomicalStructure value="abdominal" begin="1525" end="1534" status="0" certainty="-2" cui="C0000726;C1281594;C0230168" tui="T029;T023;T029" rank="797;765;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="34">
+<modifier value="port" begin="1561" end="1565" status="0" certainty="-2" cui="S0000553;C0205054;C0452253;C1706409;C1880253;C0475311" tui="T082;T029;T168;T074;T077;T073" rank="999;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;AOD"/>
+<anatomicalStructure value="umbilical" begin="1551" end="1560" status="0" certainty="-2" cui="C0041638;C1280744" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="insertion" begin="1566" end="1575" status="0" certainty="-2" cui="C0441587;C0021107;C1883719;C1512796" tui="T058;T061;T169;T045" rank="765;702;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="25" begin="1577" end="1661" sentText="Under laparoscopic vision, curved robotic cannulas were inserted without difficulty.">
+<RelationSet id="35">
+<modifier value="vision" begin="1596" end="1602" status="0" certainty="0" cui="C0042789" tui="T040" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="laparoscopic" begin="1583" end="1595" status="0" certainty="0" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="999;717;592" code="NO-CODE" sourceType="EZDI;RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="36">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="curved" begin="1604" end="1610" status="0" certainty="0"/>
+<problem value="robotic cannulas" begin="1611" end="1627" status="0" certainty="0"/>
+</Relation>
+<modifier value="curved" begin="1604" end="1610" status="0" certainty="0" cui="C0205134" tui="T082" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="robotic cannulas" begin="1611" end="1627" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="24" begin="1662" end="2029">
+<Sentence sentNo="26" begin="1662" end="1739" sentText="The patient was placed in reverse Trendelenburg position and tilted leftward.">
+</Sentence>
+<Sentence sentNo="27" begin="1740" end="1846" sentText="The robotic arms were bend docked to the robotic cannulas, and the robotic arms were then burped together.">
+<RelationSet id="36">
+<anatomicalStructure value="robotic cannulas" begin="1781" end="1797" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="37">
+<anatomicalStructure value="arms" begin="1815" end="1819" status="0" certainty="0" cui="C0446516;C1269078;C1140618;C1269612" tui="T029;T023;T029;T029" rank="795;765;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="28" begin="1847" end="1909" sentText="The laparoscope was reinserted along with robotic instruments.">
+<RelationSet id="38">
+<medicalDevice value="laparoscope" begin="1851" end="1862" status="0" certainty="0" cui="C0031150;C0023036;C1883297" tui="T060;T074;T061" rank="797;795;592" code="NO-CODE" sourceType="MTH;MSH;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="29" begin="1910" end="1990" sentText="The assist port and assist grasper were also inserted under laparoscopic vision.">
+<RelationSet id="39">
+<modifier value="vision" begin="1983" end="1989" status="0" certainty="0" cui="C0042789" tui="T040" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="laparoscopic" begin="1970" end="1982" status="0" certainty="0" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="999;717;592" code="NO-CODE" sourceType="EZDI;RCD;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="30" begin="1991" end="2029" sentText="The gallbladder was easily identified.">
+<RelationSet id="40">
+<anatomicalStructure value="gallbladder" begin="1995" end="2006" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="25" begin="2030" end="3334">
+<Sentence sentNo="31" begin="2030" end="2077" sentText="There were no adhesions to surrounding tissues.">
+<RelationSet id="41">
+<problem value="adhesions_SEP_tissues" begin="2044_SEP_2069" end="2053_SEP_2076" status="0" certainty="-2" cui="C0001511" tui="T046" rank="797" code="NO-CODE" sourceType="MTH"/>
+<finding value="adhesions" begin="2044" end="2053" status="0" certainty="-2" cui="C0175633" tui="T070" rank="576" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="32" begin="2078" end="2132" sentText="It was somewhat thick walled and chronically inflamed.">
+<RelationSet id="41">
+<modifier value="chronically" begin="2111" end="2122" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="41">
+<problem value="inflamed" begin="2123" end="2131" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="33" begin="2133" end="2188" sentText="The gallbladder was doubly grasped and gently elevated.">
+<RelationSet id="42">
+<anatomicalStructure value="gallbladder" begin="2137" end="2148" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+<RelationSet id="43">
+<modifier value="elevated" begin="2179" end="2187" status="0" certainty="0" cui="C3163633;C0205250" tui="T080;T080" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="34" begin="2189" end="2266" sentText="Fluorescent cholangiography demonstrated normal extrahepatic biliary anatomy.">
+<RelationSet id="44">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="extrahepatic biliary anatomy" begin="2237" end="2265" status="0" certainty="0"/>
+<modifier value="normal" begin="2230" end="2236" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="Fluorescent cholangiography" begin="2189" end="2216" status="0" certainty="0"/>
+<procedure value="extrahepatic biliary anatomy" begin="2237" end="2265" status="0" certainty="0"/>
+<modifier value="normal" begin="2230" end="2236" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="Fluorescent cholangiography" begin="2189" end="2216" status="0" certainty="0"/>
+<modifier value="normal" begin="2230" end="2236" status="0" certainty="0"/>
+</Relation>
+<modifier value="Fluorescent" begin="2189" end="2200" status="0" certainty="0" cui="C0303920" tui="T109,T130" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="cholangiography" begin="2201" end="2216" status="0" certainty="0" cui="C0008307" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+<modifier value="normal_SEP_anatomy" begin="2230_SEP_2258" end="2236_SEP_2265" status="0" certainty="0" cui="C1269644" tui="T080" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<modifier value="anatomy" begin="2258" end="2265" status="0" certainty="0" cui="C0002808;C1384516;C0700276" tui="T091;T080;T017" rank="795;788;472" code="NO-CODE" sourceType="MSH;MSH;AOD"/>
+<modifier value="biliary" begin="2250" end="2257" status="0" certainty="0" cui="C0005388;C0521378" tui="T031;T169" rank="795;703" code="NO-CODE" sourceType="MSH;SNMI"/>
+<anatomicalStructure value="extrahepatic" begin="2237" end="2249" status="0" certainty="0" cui="C0205054;C1517058" tui="T029;T082" rank="797;576" code="NO-CODE" sourceType="MTH;NCI"/>
+<modifier value="normal" begin="2230" end="2236" status="0" certainty="0" cui="C0949333;C0205307;C1882114;C1704701;C2698497;C0558145;C0848894" tui="T080;T080;T081;T081;T170;T033;T033" rank="797;797;575;575;572;572;489" code="NO-CODE" sourceType="MTH;MTH;NCI;NCI;NCI;NCI;ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="35" begin="2267" end="2436" sentText="Staying high against the gallbladder and well away from the porta hepatis and common bile duct, the cystic duct and the cystic artery were identified and dissected free.">
+<RelationSet id="45">
+<anatomicalStructure value="gallbladder" begin="2292" end="2303" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+<RelationSet id="46">
+<anatomicalStructure value="porta hepatis" begin="2327" end="2340" status="0" certainty="0" cui="C1280317;C0227498" tui="T023;T030" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="porta" begin="2327" end="2332" status="0" certainty="0" cui="C0205054" tui="T029" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="47">
+<anatomicalStructure value="common bile duct" begin="2345" end="2361" status="0" certainty="0" cui="C0009437" tui="T023" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="bile duct" begin="2352" end="2361" status="0" certainty="0" cui="C0005400;C1280889;C1711174" tui="T023;T023;T024" rank="795;765;572" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="duct" begin="2357" end="2361" status="0" certainty="0" cui="C1512083;C0687028;C1267211;C1705650;C1550227" tui="T080;T023;T023;T074;T023" rank="797;765;765;575;150" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="48">
+<anatomicalStructure value="cystic duct" begin="2367" end="2378" status="0" certainty="0" cui="C0010672;C1280323" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="duct" begin="2374" end="2378" status="0" certainty="0" cui="C1512083;C0687028;C1267211;C1705650;C1550227" tui="T080;T023;T023;T074;T023" rank="797;765;765;575;150" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="49">
+<anatomicalStructure value="cystic artery" begin="2387" end="2400" status="0" certainty="0" cui="C0226309;C1280135" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="2394" end="2400" status="0" certainty="0" cui="C0003842;C0226004" tui="T023;T022" rank="797;151" code="NO-CODE" sourceType="MTH;CHV"/>
+</RelationSet>
+<RelationSet id="49">
+<procedure value="dissected" begin="2421" end="2430" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="36" begin="2437" end="2544" sentText="These 2 structures were then divided between sets of hemoclips, again staying high against the gallbladder.">
+<RelationSet id="50">
+<anatomicalStructure value="gallbladder" begin="2532" end="2543" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="37" begin="2545" end="2718" sentText="The gallbladder was then elevated further and was dissected free from the gallbladder fossa in retrograde fashion using a combination of blunt dissection and electrocautery.">
+<RelationSet id="51">
+<anatomicalStructure value="gallbladder" begin="2549" end="2560" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+<RelationSet id="51">
+<procedure value="dissected" begin="2595" end="2604" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="52">
+<anatomicalStructure value="gallbladder fossa" begin="2619" end="2636" status="0" certainty="0" cui="C0227511" tui="T030" rank="150" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="gallbladder" begin="2619" end="2630" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+<anatomicalStructure value="fossa" begin="2631" end="2636" status="0" certainty="0" cui="C0836913" tui="T030" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="53">
+<modifier value="blunt" begin="2682" end="2687" status="0" certainty="0" cui="C1997138" tui="T080" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="dissection" begin="2688" end="2698" status="0" certainty="0" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="54">
+<procedure value="electrocautery" begin="2703" end="2717" status="0" certainty="0" cui="C0007471;C0013804;C1706093" tui="T061;T061;T074" rank="795;791;575" code="NO-CODE" sourceType="MSH;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="38" begin="2719" end="2801" sentText="Any bleeders on the surface of the gallbladder fossa were controlled with cautery.">
+<RelationSet id="55">
+<anatomicalStructure value="gallbladder fossa" begin="2754" end="2771" status="0" certainty="0" cui="C0227511" tui="T030" rank="150" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="gallbladder" begin="2754" end="2765" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+<anatomicalStructure value="fossa" begin="2766" end="2771" status="0" certainty="0" cui="C0836913" tui="T030" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="56">
+<medicalDevice value="cautery" begin="2793" end="2800" status="0" certainty="0" cui="C0007471;C0175641;C1706093" tui="T061;T074;T074" rank="795;684;575" code="NO-CODE" sourceType="MSH;UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="39" begin="2802" end="2886" sentText="Once the gallbladder was completely dissected free, the operative field was checked.">
+<RelationSet id="57">
+<anatomicalStructure value="gallbladder" begin="2811" end="2822" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="40" begin="2887" end="3015" sentText="There was no evidence of bleeding or bile leakage and the cystic duct and cystic artery clips appeared to be in proper position.">
+<RelationSet id="58">
+<problem value="bleeding" begin="2912" end="2920" status="0" certainty="-2" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="MSH"/>
+<finding value="no_SEP_bleeding" begin="2897_SEP_2912" end="2899_SEP_2920" status="0" certainty="-2" cui="C2712233" tui="T033" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="59">
+<problem value="bile leakage" begin="2924" end="2936" status="0" certainty="-2" cui="C0400997" tui="T046" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="leakage" begin="2929" end="2936" status="0" certainty="-2" cui="C0015376" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="60">
+<anatomicalStructure value="cystic duct" begin="2945" end="2956" status="0" certainty="-2" cui="C0010672;C1280323" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="duct" begin="2952" end="2956" status="0" certainty="-2" cui="C1512083;C0687028;C1267211;C1705650;C1550227" tui="T080;T023;T023;T074;T023" rank="797;765;765;575;150" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="61">
+<medicalDevice value="clips" begin="2975" end="2980" status="0" certainty="-2" cui="C0175722;C1705205;C2827463;C1704793;C0056374" tui="T074;T074;T028;T028;T116,T123" rank="797;575;575;575;233" code="NO-CODE" sourceType="MTH;NCI;NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="41" begin="3016" end="3106" sentText="The robotic instruments were removed and the robotic arms were undocked from the cannulas.">
+<RelationSet id="62">
+<medicalDevice value="cannulas" begin="3097" end="3105" status="0" certainty="0" cui="C0520453;C3463845;C1706091" tui="T074;T204;T074" rank="792;751;575" code="NO-CODE" sourceType="MSH;NCBI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="42" begin="3107" end="3159" sentText="The patient was then placed back in supine position.">
+</Sentence>
+<Sentence sentNo="43" begin="3160" end="3282" sentText="The umbilical port, assist port, assist grasper, and the attached gallbladder were then removed from the abdominal cavity.">
+<RelationSet id="63">
+<anatomicalStructure value="umbilical" begin="3164" end="3173" status="0" certainty="0" cui="C0041638;C1280744" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="port" begin="3174" end="3178" status="0" certainty="0" cui="S0000553;C0205054;C0452253;C1706409;C1880253;C0475311" tui="T082;T029;T168;T074;T077;T073" rank="999;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;AOD"/>
+</RelationSet>
+<RelationSet id="64">
+<anatomicalStructure value="gallbladder" begin="3226" end="3237" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+</RelationSet>
+<RelationSet id="65">
+<anatomicalStructure value="abdominal cavity" begin="3265" end="3281" status="0" certainty="0" cui="C0230168;C1283841" tui="T029;T030" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="3265" end="3274" status="0" certainty="0" cui="C0000726;C1281594" tui="T029;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="cavity" begin="3275" end="3281" status="0" certainty="0" cui="C1510420;C0333343" tui="T190;T030" rank="767;691" code="NO-CODE" sourceType="SNOMEDCTUS;FMA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="44" begin="3283" end="3334" sentText="The gallbladder contained multiple palpable stones.">
+<RelationSet id="66">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="gallbladder" begin="3287" end="3298" status="0" certainty="0"/>
+<problem value="stones" begin="3327" end="3333" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="gallbladder" begin="3287" end="3298" status="0" certainty="0"/>
+<modifier value="palpable" begin="3318" end="3326" status="0" certainty="0"/>
+<problem value="stones" begin="3327" end="3333" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="palpable" begin="3318" end="3326" status="0" certainty="0"/>
+<problem value="stones" begin="3327" end="3333" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="gallbladder" begin="3287" end="3298" status="0" certainty="0" cui="C0016976;C1269001;C0205055;C2032932;C1524055" tui="T023;T023;T082;T058;T024" rank="797;765;703;592;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI;MEDCIN;NCI"/>
+<problem value="gallbladder contained multiple_SEP_stones" begin="3287_SEP_3327" end="3317_SEP_3333" status="0" certainty="0" cui="S00014682" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="gallbladder_SEP_stones" begin="3287_SEP_3327" end="3298_SEP_3333" status="0" certainty="0" cui="C0947622;C0242216;C0008350" tui="T047;T031;T047" rank="765;369;150" code="NO-CODE" sourceType="SNOMEDCTUS;RAM;CHV"/>
+<problem value="stones" begin="3327" end="3333" status="0" certainty="0" cui="C0006736;C0456824" tui="T031;T037" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<modifier value="palpable" begin="3318" end="3326" status="0" certainty="0" cui="C0522499" tui="T080" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="26" begin="3335" end="3430">
+<Sentence sentNo="45" begin="3335" end="3379" sentText="This was submitted to Pathology in fixative.">
+</Sentence>
+<Sentence sentNo="46" begin="3380" end="3430" sentText="The pneumoperitoneum had been completely released.">
+<RelationSet id="67">
+<problem value="pneumoperitoneum" begin="3384" end="3400" status="0" certainty="0" cui="C0032320;C0198632" tui="T047;T061" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="27" begin="3431" end="4053">
+<Sentence sentNo="47" begin="3431" end="3497" sentText="The midline fascia was then closed with running suture of 0 Maxon.">
+<RelationSet id="68">
+<modifier value="midline" begin="3435" end="3442" status="0" certainty="0" cui="C0549183;C0205132;C2939193;C1552960;C1517938" tui="T082;T082;T082;T081;T114,T123" rank="767;765;765;575;519" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="69">
+<anatomicalStructure value="fascia" begin="3443" end="3449" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="70">
+<medicalDevice value="suture" begin="3479" end="3485" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="48" begin="3498" end="3549" sentText="The wound was irrigated and checked for hemostasis.">
+<RelationSet id="71">
+<problem value="wound" begin="3502" end="3507" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+</RelationSet>
+<RelationSet id="72">
+<procedure value="hemostasis" begin="3538" end="3548" status="0" certainty="-2" cui="C0019116;C0333138;C0019120;C0740166" tui="T042;T046;T121;T061" rank="795;767;728;725" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCDAE;RCDAE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="49" begin="3550" end="3625" sentText="An additional 10 cc of Marcaine was infiltrated around the fascial closure.">
+<RelationSet id="73">
+<med value="Marcaine" begin="3573" end="3581" status="0" certainty="0" cui="C2945665" tui="T121" rank="790" code="NO-CODE" sourceType="MSH">
+<medData strength="10" strengthBegin="3564" strengthEnd="3566" strengthUnit="cc" strengthUnitBegin="3567" strengthUnitEnd="3569" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+<RelationSet id="74">
+<anatomicalStructure value="fascial" begin="3609" end="3616" status="0" certainty="0" cui="C0015641" tui="T024" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="closure" begin="3617" end="3624" status="0" certainty="0" cui="C0185003;C0591895;C0447303;C1947917" tui="T061;T109,T121;T029;T169" rank="767;724;523;523" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="50" begin="3626" end="3713" sentText="The skin incision was then closed with running subcuticular suture of 3-0 plain catgut.">
+<RelationSet id="75">
+<modifier value="skin" begin="3630" end="3634" status="0" certainty="0" cui="C0221912;C1123023;C1278993;C0221928;C1522447" tui="T082;T022;T022;T080;T169" rank="797;797;765;703;575" code="NO-CODE" sourceType="MTH;MTH;SNOMEDCTUS;SNMI;NCI"/>
+<procedure value="skin incision" begin="3630" end="3643" status="0" certainty="0" cui="C0191279" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="incision" begin="3635" end="3643" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="76">
+<medicalDevice value="suture_SEP_catgut" begin="3686_SEP_3706" end="3692_SEP_3712" status="0" certainty="0" cui="C0441205" tui="T074" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="suture" begin="3686" end="3692" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="51" begin="3714" end="3767" sentText="Steri-Strips and a dry sterile dressing were applied.">
+</Sentence>
+<Sentence sentNo="52" begin="3768" end="3888" sentText="The patient was then awakened and extubated and she was moved to the recovery room in stable and satisfactory condition.">
+<RelationSet id="76">
+<procedure value="extubated" begin="3802" end="3811" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="53" begin="3889" end="3922" sentText="She tolerated the procedure well.">
+</Sentence>
+<Sentence sentNo="54" begin="3923" end="3953" sentText="The case was considered clean.">
+</Sentence>
+<Sentence sentNo="55" begin="3954" end="3999" sentText="The estimated blood loss was less than 10 cc.">
+<RelationSet id="77">
+<finding value="estimated blood loss" begin="3958" end="3978" status="0" certainty="0" cui="C1443559" tui="T033" rank="797" code="NO-CODE" sourceType="MTH"/>
+<finding value="blood loss" begin="3968" end="3978" status="0" certainty="0" cui="C3163616;C0019080;C0553700" tui="T033;T046;T201" rank="797;765;711" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="56" begin="4000" end="4053" sentText="At the end of the procedure, all counts were correct.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="28" begin="4054" end="4157">
+<Sentence sentNo="57" begin="4054" end="4157" sentText="Postoperatively the patient and her family were given full wound care, diet, and activity instructions.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="29" begin="4158" end="4170">
+<Sentence sentNo="58" begin="4158" end="4170" sentText="She will use">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="30" begin="4171" end="4264">
+<Sentence sentNo="59" begin="4171" end="4264" sentText="Percocet as needed for pain and she will follow up in my office within the next 1 to 2 weeks.">
+<RelationSet id="78">
+<med value="Percocet" begin="4171" end="4179" status="0" certainty="0" cui="C0086787" tui="T109,T121" rank="774" code="NO-CODE" sourceType="RXNORM">
+<date value="1" begin="4251" end="4252">
+<medData strength="" strengthBegin="" strengthEnd="" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="as needed" frequencyBegin="4180" frequencyEnd="4189" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></date>
+</med>
+</RelationSet>
+<RelationSet id="79">
+<problem value="pain" begin="4194" end="4198" status="0" certainty="0" cui="C0030193;C0234226;C1557397;C1882272;C0242936" tui="T184;T169;T033;T033;T073,T093" rank="797;767;551;551;366" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

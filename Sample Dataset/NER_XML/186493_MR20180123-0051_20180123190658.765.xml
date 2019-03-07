@@ -1,0 +1,593 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="17">
+<Paragraph pgNo="1" begin="0" end="16">
+<Sentence sentNo="1" begin="0" end="16" sentText="ENDOSCOPY REPORT">
+<RelationSet id="1">
+<procedure value="ENDOSCOPY" begin="0" end="9" status="0" certainty="0" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="MSH;HL7V3.0"/>
+<procedure value="REPORT" begin="10" end="16" status="0" certainty="0" cui="C0684224;C1705915;C1522485;C3273238;C0747307;C0700287" tui="T170;T077;T130;T170;T170;T058" rank="793;575;575;562;491;490" code="NO-CODE" sourceType="MSH;NCI;NCI;NCI;CCPSS;CCPSS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="17" end="17">
+</Paragraph>
+</Section>
+<Section value="COLONOSCOPY REPORT" begin="18" end="36" secBegin="36" secEnd="37">
+<Paragraph pgNo="3" begin="18" end="36">
+<Sentence sentNo="2" begin="18" end="36" sentText="COLONOSCOPY REPORT">
+<RelationSet id="2">
+<procedure value="COLONOSCOPY" begin="18" end="29" status="0" certainty="0" cui="C0009378;C1548837;C0372087" tui="T060;T058;T060" rank="999;355;271" code="NO-CODE" sourceType="EZDI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="4" begin="37" end="37">
+</Paragraph>
+</Section>
+<Section value="TIME Start" begin="38" end="49" secBegin="49" secEnd="77">
+<Paragraph pgNo="5" begin="38" end="77">
+<Sentence sentNo="3" begin="38" end="77" sentText="TIME Start:1:32:20 PM Reached: 6 (Mins)">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="COLONOSCOPY REPORT" begin="78" end="78" secBegin="78" secEnd="138">
+<Paragraph pgNo="6" begin="78" end="115">
+<Sentence sentNo="4" begin="78" end="115" sentText="End: 1:55:01 PM Withdrawal: 16 (Mins)">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="7" begin="116" end="138">
+<Sentence sentNo="5" begin="116" end="138" sentText="ASST/NURSE : NURSE1 RN">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="INDICATION" begin="139" end="151" secBegin="151" secEnd="710">
+<Paragraph pgNo="8" begin="139" end="203">
+<Sentence sentNo="6" begin="139" end="194" sentText="INDICATION : Personal history of colonic polyps-Z86.010">
+<RelationSet id="3">
+<problem value="history of colonic polyps" begin="161" end="186" status="0" certainty="0" cui="S00000325" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="history of_SEP_polyps" begin="161_SEP_180" end="171_SEP_186" status="1" certainty="0" cui="S00023934" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="colonic polyps" begin="172" end="186" status="1" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+<problem value="polyps" begin="180" end="186" status="1" certainty="0" cui="S00001614;C0032584" tui="T046;T190" rank="800;797" code="NO-CODE" sourceType="ezDIML2;MTH"/>
+<anatomicalStructure value="colonic" begin="172" end="179" status="1" certainty="0" cui="C0009368" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<finding value="Personal history_SEP_colonic polyps" begin="152_SEP_172" end="168_SEP_186" status="1" certainty="0" cui="C0375804" tui="T033" rank="608" code="NO-CODE" sourceType="ICD10AM"/>
+<finding value="history_SEP_colonic polyps" begin="161_SEP_172" end="168_SEP_186" status="1" certainty="0" cui="C1997022" tui="T033" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="3">
+<modifier value="Z86.010" begin="187" end="194" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="195" end="203" sentText="a. Cecum">
+<RelationSet id="3">
+<med value="Cecum" begin="198" end="203" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE">
+<medData strength="" strengthBegin="" strengthEnd="" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="9" begin="204" end="612">
+<Sentence sentNo="8" begin="204" end="449" sentText="CONSENT : After obtaining the history and performing the physical examination, the procedure, indications, potential complications like bleeding, perforation, infection, adverse medication reaction and alternatives were explained to the patient.">
+<RelationSet id="4">
+<problem value="bleeding" begin="340" end="348" status="0" certainty="-1" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="5">
+<finding value="perforation" begin="350" end="361" status="0" certainty="-1" cui="C0549099;C1881710" tui="T033;T067" rank="767;561" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="6">
+<problem value="infection" begin="363" end="372" status="0" certainty="-1" cui="C0009450;C1556682" tui="T047;T033" rank="795;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="450" end="522" sentText="Patient appeared to understand the benefits and risks of this procedure.">
+</Sentence>
+<Sentence sentNo="10" begin="523" end="612" sentText="Informed consent was obtained from the patient after providing opportunity for questions.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="10" begin="613" end="685">
+<Sentence sentNo="11" begin="613" end="685" sentText="PREPARATION : EKG pulse, blood pressure and oxygen saturation monitored.">
+<RelationSet id="7">
+<procedure value="pulse" begin="631" end="636" status="0" certainty="0" cui="C0034107;C0391850;C0277899;C1947910;C0232117" tui="T058;T039;T033;T067;T201" rank="795;767;765;576;572" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+<procedure value="EKG" begin="627" end="630" status="0" certainty="0" cui="C1623258;C0013798" tui="T060;T033" rank="791;150" code="NO-CODE" sourceType="MSH;CHV"/>
+</RelationSet>
+<RelationSet id="7">
+<meas value="blood pressure" begin="638" end="652" status="0" certainty="0" code="EZBD000004">
+</meas>
+</RelationSet>
+<RelationSet id="7">
+<meas value="oxygen saturation" begin="657" end="674" status="0" certainty="0" code="EZBD000392">
+</meas>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="11" begin="686" end="710">
+<Sentence sentNo="12" begin="686" end="710" sentText="INSTRUMENT : COLON #4243">
+<RelationSet id="8">
+<anatomicalStructure value="COLON" begin="699" end="704" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="ANESTHESIA" begin="711" end="723" secBegin="723" secEnd="752">
+<Paragraph pgNo="12" begin="711" end="741">
+<Sentence sentNo="13" begin="711" end="741" sentText="ANESTHESIA : As Per Anesthesia">
+<RelationSet id="9">
+<procedure value="ANESTHESIA" begin="711" end="721" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+<RelationSet id="10">
+<procedure value="Anesthesia" begin="731" end="741" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="13" begin="742" end="752">
+<Sentence sentNo="14" begin="742" end="752" sentText="EBL : 0 cc">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="PROCEDURE" begin="753" end="764" secBegin="764" secEnd="1334">
+<Paragraph pgNo="14" begin="753" end="1334">
+<Sentence sentNo="15" begin="753" end="1069" sentText="PROCEDURE : After placing the patient in the left lateral decubitus position, the colonoscope was gently inserted into the rectum and under direct visualization advanced to the Cecum which was identified by transillumination in the right lower quadrant, identification of the ileum, appendiceal orifice, cecal strap.">
+<RelationSet id="11">
+<medicalDevice value="colonoscope" begin="835" end="846" status="0" certainty="0" cui="C0009378;C0180022;C1548837;C0372087" tui="T060,T061;T074;T058;T060" rank="797;795;355;271" code="NO-CODE" sourceType="MTH;MSH;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="12">
+<anatomicalStructure value="rectum" begin="876" end="882" status="0" certainty="0" cui="C0034896;C1278926;C0869814" tui="T023;T023;T058" rank="797;765;373" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="13">
+<modifier value="direct" begin="893" end="899" status="0" certainty="0" cui="C0449738;C0439851;C0700158;C1947931;C0522247" tui="T082;T080;T122;T080;T041" rank="797;767;723;576;233" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;MSH;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="14">
+<anatomicalStructure value="Cecum" begin="930" end="935" status="0" certainty="0" cui="C0007531;C1278925;C0520526;C0280555" tui="T023;T023;T061;T061" rank="797;765;578;441" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;PDQ;PDQ"/>
+</RelationSet>
+<RelationSet id="15">
+<modifier value="right lower quadrant" begin="985" end="1005" status="0" certainty="0" cui="S00004159;C0439736" tui="T046;T082" rank="800;767" code="NO-CODE" sourceType="ezDIML2;SNOMEDCTUS"/>
+<modifier value="lower" begin="991" end="996" status="0" certainty="0" cui="C0205251;C0441994;C1272755;C1708760;C2700150" tui="T080;T082;T081;T080;T170" rank="797;767;767;576;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="16">
+<anatomicalStructure value="ileum" begin="1029" end="1034" status="0" certainty="0" cui="C0020885;C1278923" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="17">
+<anatomicalStructure value="appendiceal" begin="1036" end="1047" status="0" certainty="0" cui="C0003617;C1269000;C0227334" tui="T023;T023;T169" rank="797;765;703" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNMI"/>
+<anatomicalStructure value="orifice" begin="1048" end="1055" status="0" certainty="0" cui="C0444567" tui="T030" rank="688" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+<RelationSet id="18">
+<anatomicalStructure value="cecal" begin="1057" end="1062" status="0" certainty="0" cui="C0007531;C0521375;C1278925" tui="T023;T082;T023" rank="797;797;765" code="NO-CODE" sourceType="MTH;MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="19">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="quadrant" begin="997" end="1005" status="0" certainty="0"/>
+<modifier value="right" begin="985" end="990" status="0" certainty="0"/>
+<procedure value="transillumination" begin="960" end="977" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="985" end="990" status="0" certainty="0"/>
+<procedure value="transillumination" begin="960" end="977" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="quadrant" begin="997" end="1005" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="right" begin="985" end="990" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+<procedure value="transillumination" begin="960" end="977" status="0" certainty="0" cui="C0040706" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="16" begin="1070" end="1157" sentText="Color, texture, mucosa and anatomy of the colon were carefully examined with the scope.">
+<RelationSet id="20">
+<anatomicalStructure value="mucosa" begin="1086" end="1092" status="0" certainty="0" cui="S00021228;C0026724" tui="T046;T024" rank="800;791" code="NO-CODE" sourceType="ezDIML2;MSH"/>
+</RelationSet>
+<RelationSet id="21">
+<anatomicalStructure value="colon" begin="1112" end="1117" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+</RelationSet>
+<RelationSet id="21">
+<medicalDevice value="scope" begin="1151" end="1156" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="17" begin="1158" end="1231" sentText="The patient tolerated the procedure well and there were no complications.">
+</Sentence>
+<Sentence sentNo="18" begin="1232" end="1314" sentText="After completion of the examination, patient was transferred to the recovery room.">
+</Sentence>
+<Sentence sentNo="19" begin="1315" end="1334" sentText="b. Transverse Colon">
+<RelationSet id="22">
+<modifier value="Transverse" begin="1318" end="1328" status="0" certainty="0" cui="C0205106;C0599157;C0446380" tui="T082;T049;T082" rank="767;575;523" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="23">
+<anatomicalStructure value="Transverse Colon" begin="1318" end="1334" status="0" certainty="0" cui="C0227386" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="Colon" begin="1329" end="1334" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="FINDINGS" begin="1335" end="1343" secBegin="1343" secEnd="1757">
+<Paragraph pgNo="15" begin="1335" end="1343">
+<Sentence sentNo="20" begin="1335" end="1343" sentText="FINDINGS">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="16" begin="1344" end="1363">
+<Sentence sentNo="21" begin="1344" end="1363" sentText="Anal Canal - Normal">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="17" begin="1364" end="1397">
+<Sentence sentNo="22" begin="1364" end="1397" sentText="Rectum - First degree hemorrhoids">
+<RelationSet id="24">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="First degree" begin="1373" end="1385" status="0" certainty="0"/>
+<anatomicalStructure value="Rectum" begin="1364" end="1370" status="0" certainty="0"/>
+<problem value="hemorrhoids" begin="1386" end="1397" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Rectum" begin="1364" end="1370" status="0" certainty="0"/>
+<problem value="hemorrhoids" begin="1386" end="1397" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="First degree" begin="1373" end="1385" status="0" certainty="0"/>
+<problem value="hemorrhoids" begin="1386" end="1397" status="0" certainty="0"/>
+</Relation>
+<modifier value="First degree" begin="1373" end="1385" status="0" certainty="0" cui="C0444502" tui="T080" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="degree" begin="1379" end="1385" status="0" certainty="0" cui="C0449286;C0542560;C0441889;C2348088" tui="T081;T170;T080;T081" rank="767;575;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI;NCI"/>
+<modifier value="First" begin="1373" end="1378" status="0" certainty="0" cui="C1279901;C0205435" tui="T080;T081" rank="797;767" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="Rectum" begin="1364" end="1370" status="0" certainty="0" cui="C0034896;C1278926;C0869814" tui="T023;T023;T058" rank="797;765;373" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;ICD10AM"/>
+<problem value="First degree hemorrhoids" begin="1373" end="1397" status="0" certainty="0" cui="C0860131" tui="T020" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="hemorrhoids" begin="1386" end="1397" status="0" certainty="0" cui="C0019112;C1963134" tui="T020;T033" rank="797;551" code="NO-CODE" sourceType="MTH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="18" begin="1398" end="1495">
+<Sentence sentNo="23" begin="1398" end="1495" sentText="Sigmoid Colon - Diverticulosis of large intestine without perforation or abscess without bleeding">
+<RelationSet id="25">
+<problem value="Diverticulosis_SEP_large intestine without perforation_SEP_abscess without bleeding" begin="1414_SEP_1432_SEP_1471" end="1428_SEP_1467_SEP_1495" status="0" certainty="0" cui="C2887876;C2887877" tui="T047;T047" rank="402;402" code="NO-CODE" sourceType="ICD10CM;ICD10CM"/>
+<problem value="Colon_SEP_Diverticulosis_SEP_without perforation_SEP_abscess without" begin="1406_SEP_1414_SEP_1448_SEP_1471" end="1411_SEP_1428_SEP_1467_SEP_1486" status="0" certainty="0" cui="C3649683" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="intestine_SEP_abscess" begin="1438_SEP_1471" end="1447_SEP_1478" status="0" certainty="-2" cui="C0156185" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="abscess" begin="1471" end="1478" status="0" certainty="-2" cui="C0000833;C0549483" tui="T047;T046" rank="797;576" code="NO-CODE" sourceType="MTH;NCI"/>
+</RelationSet>
+<RelationSet id="26">
+<problem value="without bleeding" begin="1479" end="1495" status="0" certainty="0" cui="S20004354" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="bleeding" begin="1487" end="1495" status="0" certainty="-2" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="27">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="large" begin="1432" end="1437" status="0" certainty="0"/>
+<problem value="perforation" begin="1456" end="1467" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="large" begin="1432" end="1437" status="0" certainty="0"/>
+<problem value="Diverticulosis" begin="1414" end="1428" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Sigmoid Colon" begin="1398" end="1411" status="0" certainty="0"/>
+<problem value="Diverticulosis" begin="1414" end="1428" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Sigmoid Colon" begin="1398" end="1411" status="0" certainty="0"/>
+<problem value="Diverticulosis" begin="1414" end="1428" status="0" certainty="0"/>
+<modifier value="large" begin="1432" end="1437" status="0" certainty="0"/>
+<anatomicalStructure value="intestine" begin="1438" end="1447" status="0" certainty="0"/>
+<problem value="perforation" begin="1456" end="1467" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="intestine" begin="1438" end="1447" status="0" certainty="0"/>
+<problem value="perforation" begin="1456" end="1467" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Diverticulosis" begin="1414" end="1428" status="0" certainty="0"/>
+<anatomicalStructure value="intestine" begin="1438" end="1447" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Colon_SEP_large intestine" begin="1406_SEP_1432" end="1411_SEP_1447" status="0" certainty="0" cui="C0009368" tui="T023" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="Sigmoid Colon" begin="1398" end="1411" status="0" certainty="0" cui="C0227391" tui="T023" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<anatomicalStructure value="Colon" begin="1406" end="1411" status="0" certainty="0" cui="C1623185;C1281569;C2684091;C1337205" tui="T121;T023;T074;T168" rank="797;765;739;562" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;VANDF;NCI"/>
+<problem value="Diverticulosis of large intestine" begin="1414" end="1447" status="0" certainty="0" cui="S00006747" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Sigmoid Colon - Diverticulosis" begin="1398" end="1428" status="0" certainty="0" cui="S00000104" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Colon_SEP_Diverticulosis_SEP_perforation" begin="1406_SEP_1414_SEP_1456" end="1411_SEP_1428_SEP_1467" status="0" certainty="-2" cui="C0520565" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Diverticulosis_SEP_large intestine" begin="1414_SEP_1432" end="1428_SEP_1447" status="0" certainty="0" cui="S00016451" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Sigmoid Colon_SEP_Diverticulosis" begin="1398_SEP_1414" end="1411_SEP_1428" status="0" certainty="0" cui="C0012818" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Colon_SEP_Diverticulosis" begin="1406_SEP_1414" end="1411_SEP_1428" status="0" certainty="0" cui="C0012819" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="Diverticulosis" begin="1414" end="1428" status="0" certainty="0" cui="C1510475" tui="T047,T190" rank="793" code="NO-CODE" sourceType="MSH"/>
+<modifier value="Colon_SEP_large" begin="1406_SEP_1432" end="1411_SEP_1437" status="0" certainty="0" cui="C2985103" tui="T185" rank="576" code="NO-CODE" sourceType="NCI"/>
+<modifier value="large" begin="1432" end="1437" status="0" certainty="0" cui="C0549177;C0443228;C1704243" tui="T081;T081;T081" rank="797;797;765" code="NO-CODE" sourceType="MTH;MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="Colon_SEP_large intestine" begin="1406_SEP_1432" end="1411_SEP_1447" status="0" certainty="0" cui="C0009368" tui="T023" rank="572" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="large intestine" begin="1432" end="1447" status="0" certainty="0" cui="C0021851;C1268999;C1517728" tui="T023;T023;T024" rank="797;765;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="intestine" begin="1438" end="1447" status="0" certainty="0" cui="C0021853;C1708548" tui="T023;T024" rank="797;572" code="NO-CODE" sourceType="MTH;NCI"/>
+<problem value="Sigmoid Colon_SEP_of_SEP_perforation" begin="1398_SEP_1429_SEP_1456" end="1411_SEP_1431_SEP_1467" status="0" certainty="-2" cui="S20009870" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="large intestine_SEP_perforation" begin="1432_SEP_1456" end="1447_SEP_1467" status="0" certainty="-2" cui="C0151738" tui="T047" rank="797" code="NO-CODE" sourceType="MTH"/>
+<problem value="intestine_SEP_perforation" begin="1438_SEP_1456" end="1447_SEP_1467" status="0" certainty="-2" cui="C0021845" tui="T020,T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<finding value="perforation" begin="1456" end="1467" status="0" certainty="-2" cui="C0549099;C1881710" tui="T033;T067" rank="767;561" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="19" begin="1496" end="1550">
+<Sentence sentNo="24" begin="1496" end="1533" sentText="Descending Colon - 1 cm polyp Polyp .">
+<RelationSet id="28">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Colon" begin="1507" end="1512" status="0" certainty="0"/>
+<modifier value="Descending" begin="1496" end="1506" status="0" certainty="0"/>
+<problem value="polyp Polyp" begin="1520" end="1531" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Colon" begin="1507" end="1512" status="0" certainty="0"/>
+<problem value="polyp Polyp" begin="1520" end="1531" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Descending Colon" begin="1496" end="1512" status="0" certainty="0" cui="C0227389" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="Colon" begin="1507" end="1512" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+<modifier value="Descending" begin="1496" end="1506" status="0" certainty="0" cui="C0205386" tui="T080" rank="797" code="NO-CODE" sourceType="MTH"/>
+<problem value="Descending Colon_SEP_polyp_SEP_Polyp" begin="1496_SEP_1520_SEP_1526" end="1512_SEP_1525_SEP_1531" status="0" certainty="0" cui="S00022780" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Colon_SEP_polyp_SEP_Polyp" begin="1507_SEP_1520_SEP_1526" end="1512_SEP_1525_SEP_1531" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+<problem value="polyp_SEP_Polyp" begin="1520_SEP_1526" end="1525_SEP_1531" status="0" certainty="0" cui="S00001614;C0032584" tui="T046;T190" rank="800;797" code="NO-CODE" sourceType="ezDIML2;MTH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="25" begin="1534" end="1550" sentText="Excision Biopsy.">
+<RelationSet id="29">
+<procedure value="Excision Biopsy" begin="1534" end="1549" status="0" certainty="0" cui="C0184921" tui="T060" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="Excision" begin="1534" end="1542" status="0" certainty="0" cui="C0728940" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="Biopsy" begin="1543" end="1549" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1548825;C3668914" tui="T060;T169;T078;T058;T060" rank="797;788;571;355;353" code="NO-CODE" sourceType="MTH;MSH;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="20" begin="1551" end="1575">
+<Sentence sentNo="26" begin="1551" end="1575" sentText="Splenic Flexure - Normal">
+<RelationSet id="30">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Splenic Flexure" begin="1551" end="1566" status="0" certainty="-2"/>
+<modifier value="Normal" begin="1569" end="1575" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Splenic Flexure" begin="1551" end="1566" status="0" certainty="-2" cui="C0227387" tui="T023" rank="790" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="Flexure" begin="1559" end="1566" status="0" certainty="-2" cui="C1880791" tui="T017" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="Splenic" begin="1551" end="1558" status="0" certainty="-2" cui="C0037993;C1278932;C2228485;C0771377" tui="T023;T023;T058;T024" rank="797;765;592;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;MEDCIN;NCI"/>
+<modifier value="Normal" begin="1569" end="1575" status="0" certainty="0" cui="C0949333;C0205307;C1882114;C1704701;C2698497;C0558145;C0848894" tui="T080;T080;T081;T081;T170;T033;T033" rank="797;797;575;575;572;572;489" code="NO-CODE" sourceType="MTH;MTH;NCI;NCI;NCI;NCI;ICPC2P"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="21" begin="1576" end="1641">
+<Sentence sentNo="27" begin="1576" end="1624" sentText="Transverse Colon - Multiple small polyps Polyp .">
+<RelationSet id="31">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Transverse" begin="1576" end="1586" status="0" certainty="0"/>
+<procedure value="Colon" begin="1587" end="1592" status="0" certainty="0"/>
+<modifier value="small" begin="1604" end="1609" status="0" certainty="0"/>
+<problem value="polyps" begin="1610" end="1616" status="0" certainty="0"/>
+<problem value="Polyp" begin="1617" end="1622" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="small" begin="1604" end="1609" status="0" certainty="0"/>
+<problem value="Polyp" begin="1617" end="1622" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="small" begin="1604" end="1609" status="0" certainty="0"/>
+<problem value="polyps" begin="1610" end="1616" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Transverse" begin="1576" end="1586" status="0" certainty="0"/>
+<procedure value="Colon" begin="1587" end="1592" status="0" certainty="0"/>
+</Relation>
+<modifier value="Transverse" begin="1576" end="1586" status="0" certainty="0" cui="C0205106;C0599157;C0446380" tui="T082;T049;T082" rank="767;575;523" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+<modifier value="Colon_SEP_small" begin="1587_SEP_1604" end="1592_SEP_1609" status="0" certainty="0" cui="C2985102" tui="T185" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="Transverse Colon_SEP_polyps_SEP_Polyp" begin="1576_SEP_1610_SEP_1617" end="1592_SEP_1616_SEP_1622" status="0" certainty="0" cui="S20007597;C0742707" tui="T046;T191" rank="800;491" code="NO-CODE" sourceType="ezDIML2;CCPSS"/>
+<problem value="Colon_SEP_polyps_SEP_Polyp" begin="1587_SEP_1610_SEP_1617" end="1592_SEP_1616_SEP_1622" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+<anatomicalStructure value="Transverse Colon" begin="1576" end="1592" status="0" certainty="0" cui="C0227386" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<modifier value="small" begin="1604" end="1609" status="0" certainty="0" cui="C2700395;C0547044;C0700321" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="MTH;MTH;MTH"/>
+<problem value="Transverse Colon_SEP_polyps" begin="1576_SEP_1610" end="1592_SEP_1616" status="0" certainty="0" cui="S20007597;C0742707" tui="T046;T191" rank="800;491" code="NO-CODE" sourceType="ezDIML2;CCPSS"/>
+<problem value="Multiple_SEP_polyps" begin="1595_SEP_1610" end="1603_SEP_1616" status="0" certainty="0" cui="C0334108" tui="T191" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<problem value="small polyps" begin="1604" end="1616" status="0" certainty="0" cui="S00020237" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Colon_SEP_polyps" begin="1587_SEP_1610" end="1592_SEP_1616" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+<problem value="polyps" begin="1610" end="1616" status="0" certainty="0" cui="S00001614;C0032584" tui="T046;T190" rank="800;797" code="NO-CODE" sourceType="ezDIML2;MTH"/>
+<finding value="Colon_SEP_Multiple_SEP_polyps" begin="1587_SEP_1595_SEP_1610" end="1592_SEP_1603_SEP_1616" status="0" certainty="0" cui="C0742615" tui="T033" rank="286" code="NO-CODE" sourceType="MTHMST"/>
+<problem value="Transverse Colon_SEP_Polyp" begin="1576_SEP_1617" end="1592_SEP_1622" status="0" certainty="0" cui="S20007597;C0742707" tui="T046;T191" rank="800;491" code="NO-CODE" sourceType="ezDIML2;CCPSS"/>
+<problem value="Multiple_SEP_Polyp" begin="1595_SEP_1617" end="1603_SEP_1622" status="0" certainty="0" cui="C0334108" tui="T191" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<problem value="small_SEP_Polyp" begin="1604_SEP_1617" end="1609_SEP_1622" status="0" certainty="0" cui="S00020237" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Colon_SEP_Polyp" begin="1587_SEP_1617" end="1592_SEP_1622" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="MTH;MTHICD9"/>
+<problem value="Polyp" begin="1617" end="1622" status="0" certainty="0" cui="S00001614;C0032584" tui="T046;T190" rank="800;797" code="NO-CODE" sourceType="ezDIML2;MTH"/>
+<finding value="Colon_SEP_Multiple_SEP_Polyp" begin="1587_SEP_1595_SEP_1617" end="1592_SEP_1603_SEP_1622" status="0" certainty="0" cui="C0742615" tui="T033" rank="286" code="NO-CODE" sourceType="MTHMST"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="28" begin="1625" end="1641" sentText="Excision Biopsy.">
+<RelationSet id="32">
+<procedure value="Excision Biopsy" begin="1625" end="1640" status="0" certainty="0" cui="C0184921" tui="T060" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="Excision" begin="1625" end="1633" status="0" certainty="0" cui="C0728940" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="Biopsy" begin="1634" end="1640" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1548825;C3668914" tui="T060;T169;T078;T058;T060" rank="797;788;571;355;353" code="NO-CODE" sourceType="MTH;MSH;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="22" begin="1642" end="1666">
+<Sentence sentNo="29" begin="1642" end="1666" sentText="Hepatic Flexure - Normal">
+<RelationSet id="33">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Hepatic Flexure" begin="1642" end="1657" status="0" certainty="-2"/>
+<modifier value="Normal" begin="1660" end="1666" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Hepatic Flexure" begin="1642" end="1657" status="0" certainty="-2" cui="C0227385" tui="T023" rank="691" code="NO-CODE" sourceType="FMA"/>
+<anatomicalStructure value="Hepatic" begin="1642" end="1649" status="0" certainty="-2" cui="C0023884;C0205054;C1278929;C0721399;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121,T127;T023;T168;T058" rank="797;797;765;673;572;562;373" code="NO-CODE" sourceType="MTH;MTH;SNOMEDCTUS;MMSL;NCI;NCI;ICD10AM"/>
+<anatomicalStructure value="Flexure" begin="1650" end="1657" status="0" certainty="-2" cui="C1880791" tui="T017" rank="576" code="NO-CODE" sourceType="NCI"/>
+<finding value="Hepatic_SEP_Normal" begin="1642_SEP_1660" end="1649_SEP_1666" status="0" certainty="-2" cui="C0577059" tui="T033" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<modifier value="Normal" begin="1660" end="1666" status="0" certainty="0" cui="C0949333;C0205307;C1882114;C1704701;C2698497;C0558145;C0848894" tui="T080;T080;T081;T081;T170;T033;T033" rank="797;797;575;575;572;572;489" code="NO-CODE" sourceType="MTH;MTH;NCI;NCI;NCI;NCI;ICPC2P"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="23" begin="1667" end="1700">
+<Sentence sentNo="30" begin="1667" end="1700" sentText="Ascending Colon - scattered stool">
+<RelationSet id="34">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Ascending Colon" begin="1667" end="1682" status="0" certainty="0"/>
+<finding value="scattered stool" begin="1685" end="1700" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Ascending Colon" begin="1667" end="1682" status="0" certainty="0" cui="C0227375" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="Colon" begin="1677" end="1682" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+<problem value="Colon_SEP_stool" begin="1677_SEP_1695" end="1682_SEP_1700" status="0" certainty="0" cui="S20006137" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="24" begin="1701" end="1715">
+<Sentence sentNo="31" begin="1701" end="1715" sentText="Cecum - Normal">
+<RelationSet id="35">
+<anatomicalStructure value="Cecum" begin="1701" end="1706" status="0" certainty="-2" cui="C0007531;C1278925;C0520526;C0280555" tui="T023;T023;T061;T061" rank="797;765;578;441" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;PDQ;PDQ"/>
+</RelationSet>
+<RelationSet id="36">
+<modifier value="Normal" begin="1709" end="1715" status="0" certainty="0" cui="C0949333;C0205307;C1882114;C1704701;C2698497;C0558145;C0848894" tui="T080;T080;T081;T081;T170;T033;T033" rank="797;797;575;575;572;572;489" code="NO-CODE" sourceType="MTH;MTH;NCI;NCI;NCI;NCI;ICPC2P"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="25" begin="1716" end="1740">
+<Sentence sentNo="32" begin="1716" end="1740" sentText="Ileocecal Valve - Normal">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="26" begin="1741" end="1757">
+<Sentence sentNo="33" begin="1741" end="1757" sentText="Ileum - Not Seen">
+<RelationSet id="37">
+<anatomicalStructure value="Ileum" begin="1741" end="1746" status="0" certainty="0" cui="C0020885;C1278923" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="IMPRESSION" begin="1758" end="1770" secBegin="1770" secEnd="1982">
+<Paragraph pgNo="27" begin="1758" end="1814">
+<Sentence sentNo="34" begin="1758" end="1814" sentText="IMPRESSION : Benign neoplasm of transverse colon - D12.3">
+<RelationSet id="37">
+<modifier value="D12.3" begin="1809" end="1814" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="38">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Benign" begin="1771" end="1777" status="0" certainty="0"/>
+<problem value="neoplasm" begin="1778" end="1786" status="0" certainty="0"/>
+<anatomicalStructure value="transverse colon" begin="1790" end="1806" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="1778" end="1786" status="0" certainty="0"/>
+<anatomicalStructure value="transverse colon" begin="1790" end="1806" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Benign" begin="1771" end="1777" status="0" certainty="0"/>
+<problem value="neoplasm" begin="1778" end="1786" status="0" certainty="0"/>
+</Relation>
+<modifier value="Benign" begin="1771" end="1777" status="0" certainty="0" cui="C0205183" tui="T080" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Benign neoplasm_SEP_transverse colon" begin="1771_SEP_1790" end="1786_SEP_1806" status="0" certainty="0" cui="C0496862" tui="T191" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="neoplasm_SEP_transverse colon" begin="1778_SEP_1790" end="1786_SEP_1806" status="0" certainty="0" cui="C0345857" tui="T191" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Benign neoplasm_SEP_colon" begin="1771_SEP_1801" end="1786_SEP_1806" status="0" certainty="0" cui="C2865400;C0004991" tui="T191;T191" rank="800;797" code="NO-CODE" sourceType="ICD10CM;MTH"/>
+<problem value="Benign neoplasm" begin="1771" end="1786" status="0" certainty="0" cui="C0086692;C0497550" tui="T191;T191" rank="797;503" code="NO-CODE" sourceType="MTH;ICPC"/>
+<problem value="neoplasm_SEP_colon" begin="1778_SEP_1801" end="1786_SEP_1806" status="0" certainty="0" cui="C0009375" tui="T191" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="neoplasm" begin="1778" end="1786" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="MTH;NCI"/>
+<anatomicalStructure value="transverse colon" begin="1790" end="1806" status="0" certainty="0" cui="C0227386" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="colon" begin="1801" end="1806" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="28" begin="1815" end="1858">
+<Sentence sentNo="35" begin="1815" end="1858" sentText="Benign neoplasm of descending colon - D12.4">
+<RelationSet id="38">
+<modifier value="D12.4" begin="1853" end="1858" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="39">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Benign" begin="1815" end="1821" status="0" certainty="0"/>
+<problem value="neoplasm" begin="1822" end="1830" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Benign" begin="1815" end="1821" status="0" certainty="0"/>
+<problem value="neoplasm" begin="1822" end="1830" status="0" certainty="0"/>
+<anatomicalStructure value="descending colon" begin="1834" end="1850" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="1822" end="1830" status="0" certainty="0"/>
+<anatomicalStructure value="descending colon" begin="1834" end="1850" status="0" certainty="0"/>
+</Relation>
+<modifier value="Benign" begin="1815" end="1821" status="0" certainty="0" cui="C0205183" tui="T080" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Benign neoplasm_SEP_descending colon" begin="1815_SEP_1834" end="1830_SEP_1850" status="0" certainty="0" cui="C0496863" tui="T191" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="neoplasm_SEP_descending colon" begin="1822_SEP_1834" end="1830_SEP_1850" status="0" certainty="0" cui="C0345865" tui="T191" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Benign neoplasm_SEP_colon" begin="1815_SEP_1845" end="1830_SEP_1850" status="0" certainty="0" cui="C2865400;C0004991" tui="T191;T191" rank="800;797" code="NO-CODE" sourceType="ICD10CM;MTH"/>
+<problem value="Benign neoplasm" begin="1815" end="1830" status="0" certainty="0" cui="C0086692;C0497550" tui="T191;T191" rank="797;503" code="NO-CODE" sourceType="MTH;ICPC"/>
+<problem value="neoplasm_SEP_colon" begin="1822_SEP_1845" end="1830_SEP_1850" status="0" certainty="0" cui="C0009375" tui="T191" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="neoplasm" begin="1822" end="1830" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="MTH;NCI"/>
+<anatomicalStructure value="descending colon" begin="1834" end="1850" status="0" certainty="0" cui="C0227389" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="colon" begin="1845" end="1850" status="0" certainty="0" cui="C1623185;C0009368;C1281569;C2684091;C1337205" tui="T121;T023;T023;T074;T168" rank="797;795;765;739;562" code="NO-CODE" sourceType="MTH;MSH;SNOMEDCTUS;VANDF;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="29" begin="1859" end="1949">
+<Sentence sentNo="36" begin="1859" end="1949" sentText="Diverticulosis of large intestine without perforation or abscess without bleeding - K57.30">
+<RelationSet id="40">
+<problem value="Diverticulosis_SEP_large intestine without perforation_SEP_abscess without bleeding" begin="1859_SEP_1877_SEP_1916" end="1873_SEP_1912_SEP_1940" status="0" certainty="0" cui="C2887876;C2887877" tui="T047;T047" rank="402;402" code="NO-CODE" sourceType="ICD10CM;ICD10CM"/>
+<problem value="intestine_SEP_abscess" begin="1883_SEP_1916" end="1892_SEP_1923" status="0" certainty="-2" cui="C0156185" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="abscess" begin="1916" end="1923" status="0" certainty="-2" cui="C0000833;C0549483" tui="T047;T046" rank="797;576" code="NO-CODE" sourceType="MTH;NCI"/>
+</RelationSet>
+<RelationSet id="41">
+<problem value="without bleeding" begin="1924" end="1940" status="0" certainty="0" cui="S20004354" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="bleeding" begin="1932" end="1940" status="0" certainty="-2" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="41">
+<modifier value="K57.30" begin="1943" end="1949" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="42">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="large" begin="1877" end="1882" status="0" certainty="0"/>
+<problem value="Diverticulosis" begin="1859" end="1873" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="intestine" begin="1883" end="1892" status="0" certainty="0"/>
+<problem value="perforation" begin="1901" end="1912" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Diverticulosis" begin="1859" end="1873" status="0" certainty="0"/>
+<anatomicalStructure value="intestine" begin="1883" end="1892" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="large" begin="1877" end="1882" status="0" certainty="0"/>
+<problem value="perforation" begin="1901" end="1912" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Diverticulosis" begin="1859" end="1873" status="0" certainty="0"/>
+<modifier value="large" begin="1877" end="1882" status="0" certainty="0"/>
+<anatomicalStructure value="intestine" begin="1883" end="1892" status="0" certainty="0"/>
+<problem value="perforation" begin="1901" end="1912" status="0" certainty="-2"/>
+</Relation>
+<problem value="Diverticulosis of large intestine" begin="1859" end="1892" status="0" certainty="0" cui="S00006747" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Diverticulosis_SEP_large intestine" begin="1859_SEP_1877" end="1873_SEP_1892" status="0" certainty="0" cui="S00016451" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="Diverticulosis" begin="1859" end="1873" status="0" certainty="0" cui="C1510475" tui="T047,T190" rank="793" code="NO-CODE" sourceType="MSH"/>
+<modifier value="large" begin="1877" end="1882" status="0" certainty="0" cui="C0549177;C0443228;C1704243" tui="T081;T081;T081" rank="797;797;765" code="NO-CODE" sourceType="MTH;MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="large intestine" begin="1877" end="1892" status="0" certainty="0" cui="C0021851;C1268999;C1517728" tui="T023;T023;T024" rank="797;765;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="intestine" begin="1883" end="1892" status="0" certainty="0" cui="C0021853;C1708548" tui="T023;T024" rank="797;572" code="NO-CODE" sourceType="MTH;NCI"/>
+<problem value="large intestine_SEP_perforation" begin="1877_SEP_1901" end="1892_SEP_1912" status="0" certainty="-2" cui="C0151738" tui="T047" rank="797" code="NO-CODE" sourceType="MTH"/>
+<problem value="intestine_SEP_perforation" begin="1883_SEP_1901" end="1892_SEP_1912" status="0" certainty="-2" cui="C0021845" tui="T020,T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<finding value="perforation" begin="1901" end="1912" status="0" certainty="-2" cui="C0549099;C1881710" tui="T033;T067" rank="767;561" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="30" begin="1950" end="1982">
+<Sentence sentNo="37" begin="1950" end="1982" sentText="First degree hemorrhoids - K64.0">
+<RelationSet id="42">
+<modifier value="K64.0" begin="1977" end="1982" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="43">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hemorrhoids" begin="1963" end="1974" status="0" certainty="0"/>
+<modifier value="First degree" begin="1950" end="1962" status="0" certainty="0"/>
+</Relation>
+<problem value="First degree hemorrhoids" begin="1950" end="1974" status="0" certainty="0" cui="C0860131" tui="T020" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="hemorrhoids" begin="1963" end="1974" status="0" certainty="0" cui="C0019112;C1963134" tui="T020;T033" rank="797;551" code="NO-CODE" sourceType="MTH;NCI"/>
+<modifier value="First degree" begin="1950" end="1962" status="0" certainty="0" cui="C0444502" tui="T080" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="degree" begin="1956" end="1962" status="0" certainty="0" cui="C0449286;C0542560;C0441889;C2348088" tui="T081;T170;T080;T081" rank="767;575;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI;NCI"/>
+<modifier value="First" begin="1950" end="1955" status="0" certainty="0" cui="C1279901;C0205435" tui="T080;T081" rank="797;767" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="PLAN" begin="1983" end="1989" secBegin="1989" secEnd="2064">
+<Paragraph pgNo="31" begin="1983" end="2015">
+<Sentence sentNo="38" begin="1983" end="2015" sentText="PLAN : Wait for pathology report">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="32" begin="2016" end="2031">
+<Sentence sentNo="39" begin="2016" end="2031" sentText="High fiber diet">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="33" begin="2032" end="2064">
+<Sentence sentNo="40" begin="2032" end="2064" sentText="Follow up colonoscopy in 3 years">
+<RelationSet id="44">
+<procedure value="colonoscopy" begin="2042" end="2053" status="0" certainty="-2" cui="C0009378;C1548837;C0372087" tui="T060;T058;T060" rank="999;355;271" code="NO-CODE" sourceType="EZDI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="CPT CODES" begin="2065" end="2076" secBegin="2076" secEnd="2162">
+<Paragraph pgNo="34" begin="2065" end="2108">
+<Sentence sentNo="41" begin="2065" end="2108" sentText="CPT CODES : 45380 - Colonoscopy with biopsy">
+<RelationSet id="45">
+<procedure value="Colonoscopy" begin="2085" end="2096" status="0" certainty="0" cui="C0009378;C1548837;C0372087" tui="T060;T058;T060" rank="999;355;271" code="NO-CODE" sourceType="EZDI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="46">
+<procedure value="biopsy" begin="2102" end="2108" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1548825;C3668914" tui="T060;T169;T078;T058;T060" rank="797;788;571;355;353" code="NO-CODE" sourceType="MTH;MSH;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="35" begin="2109" end="2161">
+<Sentence sentNo="42" begin="2109" end="2161" sentText="This report has been reviewed by attending physician">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

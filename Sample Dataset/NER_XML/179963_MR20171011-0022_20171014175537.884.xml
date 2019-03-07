@@ -1,0 +1,619 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="14">
+<Paragraph pgNo="1" begin="0" end="13">
+<Sentence sentNo="1" begin="0" end="13" sentText="HOSPITAL NAME">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="14" end="14">
+</Paragraph>
+</Section>
+<Section value="OPERATIVE REPORT" begin="15" end="31" secBegin="31" secEnd="57">
+<Paragraph pgNo="3" begin="15" end="31">
+<Sentence sentNo="2" begin="15" end="31" sentText="OPERATIVE REPORT">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="4" begin="32" end="32">
+</Paragraph>
+<Paragraph pgNo="5" begin="33" end="57">
+<Sentence sentNo="3" begin="33" end="57" sentText="Name:PATIENT MR#: 000000">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="Location" begin="58" end="67" secBegin="67" secEnd="80">
+<Paragraph pgNo="6" begin="58" end="80">
+<Sentence sentNo="4" begin="58" end="80" sentText="Location:LOC Acct# :01">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="DOB" begin="81" end="85" secBegin="85" secEnd="95">
+<Paragraph pgNo="7" begin="81" end="95">
+<Sentence sentNo="5" begin="81" end="95" sentText="DOB:06/18/2013">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="Admit Date" begin="96" end="107" secBegin="107" secEnd="107">
+<Paragraph pgNo="8" begin="96" end="107">
+<Sentence sentNo="6" begin="96" end="107" sentText="Admit Date:">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="Discharge Date" begin="108" end="123" secBegin="123" secEnd="126">
+<Paragraph pgNo="9" begin="108" end="123">
+<Sentence sentNo="7" begin="108" end="123" sentText="Discharge Date:">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="10" begin="124" end="124">
+</Paragraph>
+<Paragraph pgNo="11" begin="125" end="125">
+</Paragraph>
+<Paragraph pgNo="12" begin="126" end="126">
+</Paragraph>
+</Section>
+<Section value="OPERATIVE REPORT" begin="127" end="143" secBegin="143" secEnd="145">
+<Paragraph pgNo="13" begin="127" end="143">
+<Sentence sentNo="8" begin="127" end="143" sentText="OPERATIVE REPORT">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="14" begin="144" end="144">
+</Paragraph>
+<Paragraph pgNo="15" begin="145" end="145">
+</Paragraph>
+</Section>
+<Section value="SURGEON" begin="146" end="154" secBegin="154" secEnd="202">
+<Paragraph pgNo="16" begin="146" end="162">
+<Sentence sentNo="9" begin="146" end="162" sentText="SURGEON: ABC, MD">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="17" begin="163" end="187">
+<Sentence sentNo="10" begin="163" end="187" sentText="1ST ASSISTANT: Dr. Doc2.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="18" begin="188" end="202">
+<Sentence sentNo="11" begin="188" end="202" sentText="2ND ASSISTANT:">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="ANESTHESIA" begin="203" end="214" secBegin="214" secEnd="223">
+<Paragraph pgNo="19" begin="203" end="223">
+<Sentence sentNo="12" begin="203" end="223" sentText="ANESTHESIA: General.">
+<RelationSet id="1">
+<procedure value="ANESTHESIA" begin="203" end="213" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2">
+<modifier value="General" begin="215" end="222" status="0" certainty="0" cui="C0205246" tui="T082" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="DATE OF SURGERY" begin="224" end="240" secBegin="240" secEnd="251">
+<Paragraph pgNo="20" begin="224" end="251">
+<Sentence sentNo="13" begin="224" end="251" sentText="DATE OF SURGERY: 10/10/2017">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="21" begin="252" end="252">
+</Paragraph>
+</Section>
+<Section value="ANESTHESIA" begin="252" end="252" secBegin="252" secEnd="253">
+<Paragraph pgNo="22" begin="252" end="252">
+</Paragraph>
+<Paragraph pgNo="23" begin="253" end="253">
+</Paragraph>
+</Section>
+<Section value="PREOPERATIVE DIAGNOSES" begin="254" end="277" secBegin="277" secEnd="304">
+<Paragraph pgNo="24" begin="254" end="303">
+<Sentence sentNo="14" begin="254" end="303" sentText="PREOPERATIVE DIAGNOSES: Bilateral cryptorchidism.">
+<RelationSet id="3">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Bilateral" begin="278" end="287" status="0" certainty="0"/>
+<problem value="cryptorchidism" begin="288" end="302" status="0" certainty="0"/>
+</Relation>
+<modifier value="Bilateral" begin="278" end="287" status="0" certainty="0" cui="C0238767;S00007001;C0205090;C0205091" tui="T082;T046;T082;T082" rank="999;800;797;797" code="NO-CODE" sourceType="EZDI;ezDIML2;MTH;MTH"/>
+<problem value="Bilateral cryptorchidism" begin="278" end="302" status="0" certainty="0" cui="C0431663;C2201204;C2140575" tui="T019;T033;T033" rank="792;595;595" code="NO-CODE" sourceType="MSH;MEDCIN;MEDCIN"/>
+<problem value="cryptorchidism" begin="288" end="302" status="0" certainty="0" cui="C0010417" tui="T019" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="25" begin="304" end="304">
+</Paragraph>
+</Section>
+<Section value="POSTOPERATIVE DIAGNOSIS" begin="305" end="329" secBegin="329" secEnd="407">
+<Paragraph pgNo="26" begin="305" end="394">
+<Sentence sentNo="15" begin="305" end="394" sentText="POSTOPERATIVE DIAGNOSIS: Bilateral cryptorchidism with right appendix testis and appendix">
+<RelationSet id="4">
+<anatomicalStructure value="appendix" begin="386" end="394" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="5">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="appendix testis" begin="366" end="381" status="0" certainty="0"/>
+<problem value="cryptorchidism" begin="340" end="354" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cryptorchidism" begin="340" end="354" status="0" certainty="0"/>
+<modifier value="Bilateral" begin="330" end="339" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cryptorchidism" begin="340" end="354" status="0" certainty="0"/>
+<modifier value="right" begin="360" end="365" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="appendix testis" begin="366" end="381" status="0" certainty="0"/>
+<problem value="cryptorchidism" begin="340" end="354" status="0" certainty="0"/>
+<modifier value="Bilateral" begin="330" end="339" status="0" certainty="0"/>
+<modifier value="right" begin="360" end="365" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="appendix testis" begin="366" end="381" status="0" certainty="0" cui="C0332989" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="right_SEP_testis" begin="360_SEP_375" end="365_SEP_381" status="0" certainty="0" cui="C0227997;C1288409" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="appendix" begin="366" end="374" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="testis" begin="375" end="381" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<problem value="Bilateral cryptorchidism" begin="330" end="354" status="0" certainty="0" cui="C0431663;C2201204;C2140575" tui="T019;T033;T033" rank="792;595;595" code="NO-CODE" sourceType="MSH;MEDCIN;MEDCIN"/>
+<problem value="cryptorchidism" begin="340" end="354" status="0" certainty="0" cui="C0010417" tui="T019" rank="797" code="NO-CODE" sourceType="MTH"/>
+<modifier value="Bilateral" begin="330" end="339" status="0" certainty="0" cui="C0238767;S00007001;C0205090;C0205091" tui="T082;T046;T082;T082" rank="999;800;797;797" code="NO-CODE" sourceType="EZDI;ezDIML2;MTH;MTH"/>
+<modifier value="right" begin="360" end="365" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="27" begin="395" end="406">
+<Sentence sentNo="16" begin="395" end="406" sentText="epididymis.">
+<RelationSet id="6">
+<anatomicalStructure value="epididymis" begin="395" end="405" status="0" certainty="0" cui="C0014533;C1278982" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="28" begin="407" end="407">
+</Paragraph>
+</Section>
+<Section value="PROCEDURE PERFORMED" begin="408" end="428" secBegin="428" secEnd="517">
+<Paragraph pgNo="29" begin="408" end="495">
+<Sentence sentNo="17" begin="408" end="495" sentText="PROCEDURE PERFORMED: Sequential right orchiopexy, excision of right appendix testis and">
+<RelationSet id="7">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="440" end="445" status="0" certainty="0"/>
+<procedure value="orchiopexy" begin="446" end="456" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="440" end="445" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+<procedure value="right orchiopexy" begin="440" end="456" status="0" certainty="0" cui="C2013933" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="orchiopexy" begin="446" end="456" status="0" certainty="0" cui="C0194907" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="8">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="appendix testis" begin="476" end="491" status="0" certainty="0"/>
+<procedure value="excision" begin="458" end="466" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="appendix testis" begin="476" end="491" status="0" certainty="0"/>
+<procedure value="excision" begin="458" end="466" status="0" certainty="0"/>
+<modifier value="right" begin="470" end="475" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="458" end="466" status="0" certainty="0"/>
+<modifier value="right" begin="470" end="475" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="appendix testis" begin="476" end="491" status="0" certainty="0" cui="C0332989" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="right_SEP_testis" begin="470_SEP_485" end="475_SEP_491" status="0" certainty="0" cui="C0227997;C1288409" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="appendix" begin="476" end="484" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="testis" begin="485" end="491" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<procedure value="excision_SEP_appendix testis" begin="458_SEP_476" end="466_SEP_491" status="0" certainty="0" cui="C0194893" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="excision_SEP_appendix" begin="458_SEP_476" end="466_SEP_484" status="0" certainty="0" cui="C0003611" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="excision_SEP_testis" begin="458_SEP_485" end="466_SEP_491" status="0" certainty="0" cui="C0029189" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="excision" begin="458" end="466" status="0" certainty="0" cui="C0728940" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<modifier value="right" begin="470" end="475" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="30" begin="496" end="516">
+<Sentence sentNo="18" begin="496" end="516" sentText="appendix epididymis.">
+<RelationSet id="9">
+<anatomicalStructure value="epididymis" begin="505" end="515" status="0" certainty="0" cui="C0014533;C1278982" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="appendix" begin="496" end="504" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="31" begin="517" end="517">
+</Paragraph>
+</Section>
+<Section value="ANESTHESIOLOGIST" begin="518" end="535" secBegin="535" secEnd="545">
+<Paragraph pgNo="32" begin="518" end="544">
+<Sentence sentNo="19" begin="518" end="544" sentText="ANESTHESIOLOGIST: Doc3, MD">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="33" begin="545" end="545">
+</Paragraph>
+</Section>
+<Section value="INDICATION FOR OPERATION" begin="546" end="571" secBegin="571" secEnd="896">
+<Paragraph pgNo="34" begin="546" end="895">
+<Sentence sentNo="20" begin="546" end="727" sentText="INDICATION FOR OPERATION: This is a 4-year-old boy, who was admitted because of bilateral undescended testes, from which a sequential bilateral orchiopexy will be done at this time.">
+<RelationSet id="10">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="bilateral" begin="626" end="635" status="0" certainty="0"/>
+<finding value="undescended testes" begin="636" end="654" status="0" certainty="0"/>
+</Relation>
+<modifier value="bilateral" begin="626" end="635" status="0" certainty="0" cui="C0238767;S00007001;C0205090;C0205091" tui="T082;T046;T082;T082" rank="999;800;797;797" code="NO-CODE" sourceType="EZDI;ezDIML2;MTH;MTH"/>
+<problem value="bilateral undescended testes" begin="626" end="654" status="0" certainty="0" cui="S00016100;C0431663" tui="T046;T019" rank="800;767" code="NO-CODE" sourceType="ezDIML2;SNOMEDCTUS"/>
+<problem value="undescended testes" begin="636" end="654" status="0" certainty="0" cui="S20006068;C0010417;C3537044;C0153595;C0348906" tui="T046;T019;T017;T191;T191" rank="800;791;767;610;610" code="NO-CODE" sourceType="ezDIML2;MSH;SNOMEDCTUS;ICD10;ICD10"/>
+<problem value="undescended" begin="636" end="647" status="0" certainty="0" cui="S0001781;C0205386" tui="T019;T080" rank="999;150" code="NO-CODE" sourceType="EZDI;CHV"/>
+</RelationSet>
+<RelationSet id="11">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="bilateral" begin="680" end="689" status="0" certainty="0"/>
+<procedure value="orchiopexy" begin="690" end="700" status="0" certainty="0"/>
+</Relation>
+<modifier value="bilateral" begin="680" end="689" status="0" certainty="0" cui="C0238767;S00007001;C0205090;C0205091" tui="T082;T046;T082;T082" rank="999;800;797;797" code="NO-CODE" sourceType="EZDI;ezDIML2;MTH;MTH"/>
+<procedure value="bilateral orchiopexy" begin="680" end="700" status="0" certainty="0" cui="C2013933;C2013932;C2222853" tui="T061;T061;T061" rank="595;595;595" code="NO-CODE" sourceType="MEDCIN;MEDCIN;MEDCIN"/>
+<procedure value="orchiopexy" begin="690" end="700" status="0" certainty="0" cui="C0194907" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="21" begin="728" end="763" sentText="The right side will be operated on.">
+</Sentence>
+<Sentence sentNo="22" begin="764" end="814" sentText="The case was thoroughly discussed with the family.">
+</Sentence>
+<Sentence sentNo="23" begin="815" end="895" sentText="The possible risks and complications were explained and no guarantees were made.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="35" begin="896" end="896">
+</Paragraph>
+</Section>
+<Section value="OPERATIVE TECHNIQUE" begin="897" end="917" secBegin="917" secEnd="3707">
+<Paragraph pgNo="36" begin="897" end="1087">
+<Sentence sentNo="24" begin="897" end="1087" sentText="OPERATIVE TECHNIQUE: With the patient under satisfactory general anesthesia and in the supine position, the lower abdomen and external genitalia were prepared and draped in the usual manner.">
+<RelationSet id="12">
+<modifier value="lower" begin="1005" end="1010" status="0" certainty="0" cui="C0205251;C0441994;C1272755;C1708760;C2700150" tui="T080;T082;T081;T080;T170" rank="797;767;767;576;572" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="13">
+<anatomicalStructure value="lower abdomen" begin="1005" end="1018" status="0" certainty="0" cui="C0230166" tui="T029" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<anatomicalStructure value="abdomen" begin="1011" end="1018" status="0" certainty="0" cui="C0000726;C1281594;C0230168" tui="T029;T023;T029" rank="797;765;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="14">
+<modifier value="external" begin="1023" end="1031" status="0" certainty="0" cui="C0205101;C0521134" tui="T082;T169" rank="767;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="14">
+<procedure value="prepared and draped" begin="1047" end="1066" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="15">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="general" begin="954" end="961" status="0" certainty="0"/>
+<procedure value="anesthesia" begin="962" end="972" status="0" certainty="0"/>
+</Relation>
+<modifier value="general" begin="954" end="961" status="0" certainty="0" cui="C0205246" tui="T082" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="general anesthesia" begin="954" end="972" status="0" certainty="0" cui="C0002915;C0498334" tui="T061;T061" rank="797;249" code="NO-CODE" sourceType="MTH;HCDT"/>
+<procedure value="anesthesia" begin="962" end="972" status="0" certainty="0" cui="C0002903;C2219802" tui="T061;T033" rank="795;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="37" begin="1088" end="1258">
+<Sentence sentNo="25" begin="1088" end="1152" sentText="The operative site was infiltrated with 0.75% Marcaine solution.">
+<RelationSet id="16">
+<med value="solution" begin="1143" end="1151" status="0" certainty="0" cui="C0037633;C1382100;C0525069;C2699488" tui="T167;T122;T122;T077" rank="797;776;576;575" code="NO-CODE" sourceType="MTH;RXNORM;NCI;NCI"/>
+<med value="Marcaine" begin="1134" end="1142" status="0" certainty="0" cui="C2945665" tui="T121" rank="790" code="NO-CODE" sourceType="MSH">
+<medData strength="0.75" strengthBegin="1128" strengthEnd="1132" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="26" begin="1153" end="1258" sentText="The right lower abdominal crease incision was made and was deepened down through the subcutaneous tissue.">
+<RelationSet id="17">
+<anatomicalStructure value="subcutaneous tissue" begin="1238" end="1257" status="0" certainty="0" cui="C0278403;C0222331" tui="T024;T024" rank="797;575" code="NO-CODE" sourceType="MTH;NCI"/>
+<anatomicalStructure value="tissue" begin="1251" end="1257" status="0" certainty="0" cui="C0040300" tui="T024" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="18">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incision" begin="1186" end="1194" status="0" certainty="0"/>
+<anatomicalStructure value="abdominal crease" begin="1169" end="1185" status="0" certainty="0"/>
+<modifier value="right" begin="1157" end="1162" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incision" begin="1186" end="1194" status="0" certainty="0"/>
+<modifier value="right" begin="1157" end="1162" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incision" begin="1186" end="1194" status="0" certainty="0"/>
+<anatomicalStructure value="abdominal crease" begin="1169" end="1185" status="0" certainty="0"/>
+</Relation>
+<problem value="lower abdominal_SEP_incision" begin="1163_SEP_1186" end="1178_SEP_1194" status="0" certainty="0" cui="S20004689" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<procedure value="incision was made" begin="1186" end="1203" status="0" certainty="0" cui="C2034895" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="abdominal_SEP_incision" begin="1169_SEP_1186" end="1178_SEP_1194" status="0" certainty="0" cui="C0198488" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="1186" end="1194" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="lower abdominal" begin="1163" end="1178" status="0" certainty="0" cui="C0230166;S00005112" tui="T029;T046" rank="999;800" code="NO-CODE" sourceType="EZDI;ezDIML2"/>
+<anatomicalStructure value="abdominal" begin="1169" end="1178" status="0" certainty="0" cui="C0000726;C1281594;C0230168" tui="T029;T023;T029" rank="797;765;575" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+<modifier value="right" begin="1157" end="1162" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="38" begin="1259" end="2004">
+<Sentence sentNo="27" begin="1259" end="1360" sentText="After which, the external oblique aponeurosis was incised along its fibers down to the external ring.">
+<RelationSet id="19">
+<anatomicalStructure value="external oblique aponeurosis" begin="1276" end="1304" status="0" certainty="0" cui="C0447685" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="external oblique" begin="1276" end="1292" status="0" certainty="0" cui="C0224375" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="aponeurosis" begin="1293" end="1304" status="0" certainty="0" cui="C0027932;C0225205;C1282761;C0521343" tui="T048;T024;T024;T029" rank="767;765;765;703" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;SNMI"/>
+</RelationSet>
+<RelationSet id="19">
+<procedure value="incised" begin="1309" end="1316" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="20">
+<anatomicalStructure value="fibers_SEP_ring" begin="1327_SEP_1355" end="1333_SEP_1359" status="0" certainty="0" cui="C0333770" tui="T026" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="28" begin="1361" end="1494" sentText="The cremaster muscle veil was carefully dissected free of the cord and at this time , it was noted at the level of the external ring.">
+<RelationSet id="21">
+<anatomicalStructure value="cremaster muscle" begin="1365" end="1381" status="0" certainty="0" cui="C0224377" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="1375" end="1381" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="MTH;MTH"/>
+</RelationSet>
+<RelationSet id="22">
+<anatomicalStructure value="cord" begin="1423" end="1427" status="0" certainty="-2" cui="S20007201;C1550235;C1706500" tui="T046;T023;T073" rank="800;576;575" code="NO-CODE" sourceType="ezDIML2;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="22">
+<anatomicalStructure value="external ring" begin="1480" end="1493" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="29" begin="1495" end="1665" sentText="The testis was then carefully mobilized from its attack fibroareolar attachment and the cremaster muscle veil was carefully dissected all the way up to the internal ring.">
+<RelationSet id="23">
+<anatomicalStructure value="testis" begin="1499" end="1505" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="24">
+<problem value="attack" begin="1544" end="1550" status="0" certainty="0" cui="C1304680;C0004063;C0699795;C1261512;C0277793" tui="T033;T037;T074;T054;T079" rank="767;726;675;481;233" code="NO-CODE" sourceType="SNOMEDCTUS;RCDSY;MMSL;AOD;SNOMEDCTUS"/>
+<procedure value="attachment" begin="1564" end="1574" status="0" certainty="0" cui="C0185023;C1999228;C2825781;C0237497;C1947905" tui="T061;T170;T170;T041;T074" rank="765;576;575;481;349" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI;AOD;MTHHH"/>
+</RelationSet>
+<RelationSet id="25">
+<anatomicalStructure value="cremaster muscle" begin="1583" end="1599" status="0" certainty="0" cui="C0224377" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="cremaster" begin="1583" end="1592" status="0" certainty="0" cui="C1305033" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="1593" end="1599" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="MTH;MTH"/>
+</RelationSet>
+<RelationSet id="25">
+<procedure value="dissected" begin="1619" end="1628" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="25">
+<anatomicalStructure value="internal ring" begin="1651" end="1664" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="30" begin="1666" end="1766" sentText="This maneuver allowed the testis to be brought down to the level of the scrotum without any tension.">
+<RelationSet id="26">
+<anatomicalStructure value="testis_SEP_to_SEP_scrotum" begin="1692_SEP_1718_SEP_1738" end="1698_SEP_1720_SEP_1745" status="0" certainty="1" cui="S1001539" tui="T017" rank="999" code="NO-CODE" sourceType="EZDI"/>
+<anatomicalStructure value="testis" begin="1692" end="1698" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="27">
+<anatomicalStructure value="scrotum" begin="1738" end="1745" status="0" certainty="1" cui="C0036471;C1280740" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="31" begin="1767" end="1863" sentText="The tunica vaginalis was opened, and there was no evidence of any communicating inguinal hernia.">
+<RelationSet id="28">
+<problem value="vaginalis" begin="1778" end="1787" status="0" certainty="0" cui="C0750103" tui="T047" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="tunica vaginalis" begin="1771" end="1787" status="0" certainty="0" cui="C0228014" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="tunica" begin="1771" end="1777" status="0" certainty="0" cui="C0682572" tui="T024" rank="472" code="NO-CODE" sourceType="AOD"/>
+</RelationSet>
+<RelationSet id="29">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="communicating" begin="1833" end="1846" status="0" certainty="-2"/>
+<problem value="inguinal hernia" begin="1847" end="1862" status="0" certainty="-2"/>
+</Relation>
+<modifier value="communicating" begin="1833" end="1846" status="0" certainty="-2" cui="C0205196;C0566001" tui="T169;T033" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<problem value="inguinal hernia" begin="1847" end="1862" status="0" certainty="-2" cui="C0019294" tui="T190" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="hernia" begin="1856" end="1862" status="0" certainty="-2" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="inguinal" begin="1847" end="1855" status="0" certainty="-2" cui="C0018246" tui="T029" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="32" begin="1864" end="2004" sentText="However, there were an appendix testis and appendix epididymis, both of which were excised accordingly using short bursts of electrocautery.">
+<RelationSet id="30">
+<anatomicalStructure value="appendix testis" begin="1887" end="1902" status="0" certainty="0" cui="C0332989" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="appendix" begin="1887" end="1895" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="testis" begin="1896" end="1902" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="31">
+<anatomicalStructure value="epididymis" begin="1916" end="1926" status="0" certainty="0" cui="C0014533;C1278982" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="appendix" begin="1907" end="1915" status="0" certainty="0" cui="C0003617;C1269000" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="32">
+<procedure value="electrocautery" begin="1989" end="2003" status="0" certainty="0" cui="C0007471;C0013804;C1706093" tui="T061;T061;T074" rank="795;791;575" code="NO-CODE" sourceType="MSH;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="39" begin="2005" end="2573">
+<Sentence sentNo="33" begin="2005" end="2190" sentText="The tunnel was then made from the groin wound towards the scrotum and the right hemiscrotal incision was made and a dartos pouch was created in between the scrotum and the dartos tunic.">
+<RelationSet id="33">
+<anatomicalStructure value="scrotum" begin="2161" end="2168" status="0" certainty="0" cui="C0036471;C1280740" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="34">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="groin" begin="2039" end="2044" status="0" certainty="0"/>
+<anatomicalStructure value="scrotum" begin="2063" end="2070" status="0" certainty="0"/>
+<problem value="wound" begin="2045" end="2050" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="groin" begin="2039" end="2044" status="0" certainty="0"/>
+<problem value="wound" begin="2045" end="2050" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="scrotum" begin="2063" end="2070" status="0" certainty="0"/>
+<problem value="wound" begin="2045" end="2050" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="groin" begin="2039" end="2044" status="0" certainty="0" cui="C0018246;C1279151" tui="T029;T029" rank="795;234" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="scrotum" begin="2063" end="2070" status="0" certainty="0" cui="C0036471;C1280740" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<problem value="wound" begin="2045" end="2050" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+</RelationSet>
+<RelationSet id="35">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="2079" end="2084" status="0" certainty="0"/>
+<procedure value="hemiscrotal incision" begin="2085" end="2105" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="2079" end="2084" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+<procedure value="incision was made" begin="2097" end="2114" status="0" certainty="0" cui="C2034895" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="incision" begin="2097" end="2105" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="34" begin="2191" end="2341" sentText="An opening was then made in the dartos tunic and a clamp was placed over the glove finger, which was then withdrawn into the operative inguinal field.">
+<RelationSet id="36">
+<medicalDevice value="clamp" begin="2242" end="2247" status="0" certainty="0" cui="C0175721;C1883710;C1705942" tui="T074;T169;T073" rank="767;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="37">
+<anatomicalStructure value="finger" begin="2274" end="2280" status="0" certainty="0" cui="C0016129;C1281584;C0549188" tui="T029;T023;T081" rank="797;765;724" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="35" begin="2342" end="2573" sentText="After which, the testis was then carefully positioned and the inferior part of testicular structure was then carefully grasped with a clamp and the clamp was withdrawn through the tunnel and through the opening in the dartos tunic.">
+<RelationSet id="38">
+<anatomicalStructure value="testis" begin="2359" end="2365" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="39">
+<modifier value="part_SEP_structure" begin="2413_SEP_2432" end="2417_SEP_2441" status="0" certainty="0" cui="C0442052" tui="T082" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<modifier value="structure" begin="2432" end="2441" status="0" certainty="0" cui="C0678594" tui="T082" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="testicular structure" begin="2421" end="2441" status="0" certainty="0" cui="C0039597" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="part_SEP_testicular" begin="2413_SEP_2421" end="2417_SEP_2431" status="0" certainty="0" cui="C1268139" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="testicular" begin="2421" end="2431" status="0" certainty="0" cui="C1278981;C0205070" tui="T023;T082" rank="765;703" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI"/>
+</RelationSet>
+<RelationSet id="40">
+<medicalDevice value="clamp" begin="2476" end="2481" status="0" certainty="0" cui="C0175721;C1883710;C1705942" tui="T074;T169;T073" rank="767;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="41">
+<medicalDevice value="clamp" begin="2490" end="2495" status="0" certainty="0" cui="C0175721;C1883710;C1705942" tui="T074;T169;T073" rank="767;575;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="40" begin="2574" end="2967">
+<Sentence sentNo="36" begin="2574" end="2621" sentText="The testis was now fixated in the dartos pouch.">
+<RelationSet id="42">
+<anatomicalStructure value="testis" begin="2578" end="2584" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="43">
+<anatomicalStructure value="dartos pouch" begin="2608" end="2620" status="0" certainty="0" cui="C0450180" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="37" begin="2622" end="2790" sentText="The dartos fascia edges were made snug on either side of the incision with 4-0 chromic catgut stitch taking a bite of the tunica albuginea on either side of the testis.">
+<RelationSet id="44">
+<anatomicalStructure value="fascia" begin="2633" end="2639" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="44">
+<medicalDevice value="chromic catgut stitch" begin="2701" end="2722" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="45">
+<anatomicalStructure value="tunica albuginea_SEP_testis" begin="2744_SEP_2783" end="2760_SEP_2789" status="0" certainty="0" cui="C0227999" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="tunica albuginea" begin="2744" end="2760" status="0" certainty="0" cui="C1522466;C0458624" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<anatomicalStructure value="tunica" begin="2744" end="2750" status="0" certainty="0" cui="C0682572" tui="T024" rank="472" code="NO-CODE" sourceType="AOD"/>
+</RelationSet>
+<RelationSet id="46">
+<anatomicalStructure value="testis" begin="2783" end="2789" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="38" begin="2791" end="2967" sentText="Once this was accomplished, the testis was carefully positioned into the dartos pouch without any tension and the scrotal incision edges were then approximated with interrupted">
+<RelationSet id="47">
+<anatomicalStructure value="testis" begin="2823" end="2829" status="0" certainty="0" cui="C0039597;C1278981" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="48">
+<anatomicalStructure value="dartos pouch" begin="2864" end="2876" status="0" certainty="0" cui="C0450180" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="49">
+<anatomicalStructure value="scrotal" begin="2905" end="2912" status="0" certainty="-2" cui="C0036471;C1280740" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<procedure value="scrotal incision" begin="2905" end="2921" status="0" certainty="-2" cui="C0194941" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="2913" end="2921" status="0" certainty="-2" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="41" begin="2968" end="3615">
+<Sentence sentNo="39" begin="2968" end="2995" sentText="4-0 chromic catgut sutures.">
+<RelationSet id="50">
+<medicalDevice value="chromic catgut sutures" begin="2972" end="2994" status="0" certainty="0" cui="C0441205;C1962924" tui="T074;T074" rank="767;740" code="NO-CODE" sourceType="SNOMEDCTUS;VANDF"/>
+<medicalDevice value="sutures" begin="2987" end="2994" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="40" begin="2996" end="3086" sentText="The groin wound was now checked for, there was no evidence of any tension or any twisting.">
+<RelationSet id="51">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="groin" begin="3000" end="3005" status="0" certainty="0"/>
+<problem value="wound" begin="3006" end="3011" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="groin" begin="3000" end="3005" status="0" certainty="0" cui="C0018246;C1279151" tui="T029;T029" rank="795;234" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<problem value="wound_SEP_checked" begin="3006_SEP_3020" end="3011_SEP_3027" status="0" certainty="0" cui="S00003624" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="wound" begin="3006" end="3011" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="41" begin="3087" end="3114" sentText="Hemostasis was established.">
+<RelationSet id="52">
+<procedure value="Hemostasis" begin="3087" end="3097" status="0" certainty="0" cui="C0019116;C0333138;C0019120;C0740166" tui="T042;T046;T121;T061" rank="795;767;728;725" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCDAE;RCDAE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="42" begin="3115" end="3406" sentText="The wound was then closed in layers approximating the external oblique aponeurosis edges with interrupted 3-0 silk, Scarpa&apos;s fascia edges with interrupted 4-0 silk, Camper&apos;s fascia edges with interrupted 4-0 chromic catgut sutures, and the skin edges with a subcuticular 4-0 Monocryl suture.">
+<RelationSet id="53">
+<problem value="wound" begin="3119" end="3124" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+<finding value="wound_SEP_closed" begin="3119_SEP_3134" end="3124_SEP_3140" status="0" certainty="0" cui="C0679319" tui="T033" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="54">
+<anatomicalStructure value="fascia" begin="3240" end="3246" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="54">
+<medicalDevice value="silk" begin="3274" end="3278" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="55">
+<medicalDevice value="chromic catgut sutures" begin="3323" end="3345" status="0" certainty="0" cui="C0441205;C1962924" tui="T074;T074" rank="767;740" code="NO-CODE" sourceType="SNOMEDCTUS;VANDF"/>
+<medicalDevice value="sutures" begin="3338" end="3345" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="55">
+<anatomicalStructure value="skin edges" begin="3355" end="3365" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="56">
+<medicalDevice value="Monocryl suture" begin="3390" end="3405" status="0" certainty="0" cui="C1961539" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="suture" begin="3399" end="3405" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068" tui="T169;T074;T061;T073;T122" rank="797;795;702;575;575" code="NO-CODE" sourceType="MTH;MSH;SNM;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="57">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="silk" begin="3225" end="3229" status="0" certainty="0"/>
+<anatomicalStructure value="external oblique aponeurosis edges" begin="3169" end="3203" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="external oblique aponeurosis" begin="3169" end="3197" status="0" certainty="0" cui="C0447685" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="external oblique" begin="3169" end="3185" status="0" certainty="0" cui="C0224375" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="aponeurosis" begin="3186" end="3197" status="0" certainty="0" cui="C0027932;C0225205;C1282761;C0521343" tui="T048;T024;T024;T029" rank="767;765;765;703" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;SNMI"/>
+<medicalDevice value="silk" begin="3225" end="3229" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="43" begin="3407" end="3512" sentText="Steri- Strips were then applied over the wound, followed by Silvadene cream and a dry occlusive dressing.">
+<RelationSet id="58">
+<problem value="wound" begin="3448" end="3453" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797" tui="T070;T037;T080;T033;T184;T169" rank="795;792;788;767;709;703" code="NO-CODE" sourceType="MSH;MSH;MSH;SNOMEDCTUS;RCDSY;SNMI"/>
+</RelationSet>
+<RelationSet id="59">
+<med value="Silvadene" begin="3467" end="3476" status="0" certainty="0" cui="C0728768" tui="T109,T121" rank="792" code="NO-CODE" sourceType="MSH">
+<medData strength="" strengthBegin="" strengthEnd="" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="44" begin="3513" end="3615" sentText="The child was then carefully awakened and taken out of the operating room in a satisfactory condition.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="42" begin="3616" end="3616">
+</Paragraph>
+<Paragraph pgNo="43" begin="3617" end="3637">
+<Sentence sentNo="45" begin="3617" end="3637" sentText="BLOOD LOSS: Minimal.">
+<RelationSet id="60">
+<problem value="BLOOD LOSS" begin="3617" end="3627" status="0" certainty="0" cui="C3163616;C0019080;C0553700" tui="T033;T046;T201" rank="797;765;711" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="BLOOD" begin="3617" end="3622" status="0" certainty="0" cui="S0001759;C0005767;C0005768;C0333275;C0229664" tui="T023;T024;T031;T080;T031" rank="999;797;797;765;576" code="NO-CODE" sourceType="EZDI;MTH;MTH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="61">
+<modifier value="Minimal" begin="3629" end="3636" status="0" certainty="0" cui="C0547040;C1524031;C2826545" tui="T080;T080;T081" rank="797;797;572" code="NO-CODE" sourceType="MTH;MTH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="44" begin="3638" end="3638">
+</Paragraph>
+<Paragraph pgNo="45" begin="3639" end="3681">
+<Sentence sentNo="46" begin="3639" end="3681" sentText="FLUID REPLACEMENT: Normal saline solution.">
+<RelationSet id="62">
+<modifier value="REPLACEMENT" begin="3645" end="3656" status="0" certainty="-2" cui="C0559956" tui="T169" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="FLUID REPLACEMENT" begin="3639" end="3656" status="0" certainty="-2" cui="C0521302" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="63">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Normal" begin="3658" end="3664" status="0" certainty="0"/>
+<med value="saline" begin="3665" end="3671" status="0" certainty="0"/>
+</Relation>
+<modifier value="Normal" begin="3658" end="3664" status="0" certainty="0" cui="C0949333;C0205307;C1882114;C1704701;C2698497;C0558145;C0848894" tui="T080;T080;T081;T081;T170;T033;T033" rank="797;797;575;575;572;572;489" code="NO-CODE" sourceType="MTH;MTH;NCI;NCI;NCI;NCI;ICPC2P"/>
+<med value="saline solution" begin="3665" end="3680" status="0" certainty="0" cui="C0036082" tui="T167" rank="797" code="NO-CODE" sourceType="MTH"/>
+<med value="Normal saline" begin="3658" end="3671" status="0" certainty="0" cui="C0445115" tui="T121,T197" rank="797" code="NO-CODE" sourceType="MTH">
+<medData strength="" strengthBegin="" strengthEnd="" strengthUnit="" strengthUnitBegin="" strengthUnitEnd="" dosage="" dosageBegin="" dosageEnd="" form="" formBegin="" formEnd="" frequency="" frequencyBegin="" frequencyEnd="" frequencyUnit="" frequencyUnitBegin="" frequencyUnitEnd="" route="" routeBegin="" routeEnd=""/></med>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="46" begin="3682" end="3682">
+</Paragraph>
+<Paragraph pgNo="47" begin="3683" end="3707">
+<Sentence sentNo="47" begin="3683" end="3707" sentText="WOUND EXPECTANCY: Clean.">
+<RelationSet id="64">
+<problem value="WOUND" begin="3683" end="3688" status="0" certainty="0" cui="C0043250" tui="T037" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="64">
+<modifier value="Clean" begin="3701" end="3706" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

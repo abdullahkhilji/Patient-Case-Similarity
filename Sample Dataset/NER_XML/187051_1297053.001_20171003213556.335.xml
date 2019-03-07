@@ -1,0 +1,112 @@
+<ezNLP>
+<Section value="Procedure/s" begin="0" end="12" secBegin="12" secEnd="34">
+<Paragraph pgNo="1" begin="0" end="33">
+<Sentence sentNo="1" begin="0" end="33" sentText="Procedure/s: HAND RIGHT 3RD DIGIT">
+<RelationSet id="1">
+<anatomicalStructure value="HAND RIGHT" begin="13" end="23" status="0" certainty="0" cui="S00021723;C0344333;C0230370;C1288948" tui="T046;T032;T023;T023" rank="800;797;765;765" code="NO-CODE" sourceType="ezDIML2;MTH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="HAND_SEP_DIGIT" begin="13_SEP_28" end="17_SEP_33" status="0" certainty="0" cui="C0016129;C1281374" tui="T029;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="DIGIT" begin="28" end="33" status="0" certainty="0" cui="C1883674;C0582802;C1283912;C0442015;C3241971" tui="T080;T023;T023;T170;T081" rank="797;765;765;765;576" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="HAND" begin="13" end="17" status="0" certainty="0" cui="C0018563;C1281583;C1552914" tui="T023;T023;T081" rank="797;765;541" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="34" end="34">
+</Paragraph>
+</Section>
+<Section value="Clinical History/Reason for Exam" begin="35" end="68" secBegin="68" secEnd="77">
+<Paragraph pgNo="3" begin="35" end="76">
+<Sentence sentNo="2" begin="35" end="76" sentText="Clinical History/Reason for Exam: PINNING">
+<RelationSet id="2">
+<procedure value="PINNING" begin="69" end="76" status="0" certainty="0" cui="C0021885;C0175718;C1168556;C1704584;C0282612" tui="T061;T074;T074;T074;T191" rank="765;765;686;575;530" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;UMD;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="4" begin="77" end="77">
+</Paragraph>
+</Section>
+<Section value="Date" begin="78" end="83" secBegin="83" secEnd="102">
+<Paragraph pgNo="5" begin="78" end="102">
+<Sentence sentNo="3" begin="78" end="102" sentText="Date: 10/3/2017 11:04 AM">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="6" begin="103" end="103">
+</Paragraph>
+</Section>
+<Section value="Clinical History/Reason for Exam" begin="103" end="103" secBegin="103" secEnd="450">
+<Paragraph pgNo="7" begin="103" end="103">
+</Paragraph>
+<Paragraph pgNo="8" begin="104" end="344">
+<Sentence sentNo="4" begin="104" end="344" sentText="Intraoperative fluoroscopy was provided for and 3 spot films obtained during the open reduction internal fixation of a transverse fracture of the distal portion of the middle phalanx of the right third finger, repaired with a surgical wire.">
+<RelationSet id="3">
+<procedure value="fluoroscopy" begin="119" end="130" status="0" certainty="0" cui="C0016356" tui="T060" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="4">
+<modifier value="internal" begin="200" end="208" status="0" certainty="0" cui="C0205102" tui="T082" rank="797" code="NO-CODE" sourceType="MTH"/>
+<modifier value="open" begin="185" end="189" status="0" certainty="0" cui="C0175566;C0547049" tui="T082;T082" rank="797;767" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<procedure value="open reduction internal fixation_SEP_fracture_SEP_distal_SEP_phalanx_SEP_finger" begin="185_SEP_234_SEP_250_SEP_279_SEP_306" end="217_SEP_242_SEP_256_SEP_286_SEP_312" status="0" certainty="0" cui="C2585974" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="open reduction internal fixation_SEP_fracture" begin="185_SEP_234" end="217_SEP_242" status="0" certainty="0" cui="C1297885" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="open reduction_SEP_fixation_SEP_fracture" begin="185_SEP_209_SEP_234" end="199_SEP_217_SEP_242" status="0" certainty="0" cui="C0559689" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="internal fixation_SEP_fracture" begin="200_SEP_234" end="217_SEP_242" status="0" certainty="0" cui="C0016642" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="open reduction_SEP_fixation" begin="185_SEP_209" end="199_SEP_217" status="0" certainty="0" cui="C0545112" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="reduction internal" begin="190" end="208" status="0" certainty="0" cui="C0745350" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="fixation_SEP_fracture" begin="209_SEP_234" end="217_SEP_242" status="0" certainty="0" cui="C0016641" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="open reduction" begin="185" end="199" status="0" certainty="0" cui="C2370853;C0185373" tui="T061;T061" rank="797;151" code="NO-CODE" sourceType="MTH;CHV"/>
+<procedure value="reduction" begin="190" end="199" status="0" certainty="0" cui="C0441610;C0301630;C0392756" tui="T061;T070;T080" rank="765;716;575" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;NCI"/>
+<procedure value="fixation" begin="209" end="217" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;AOD"/>
+</RelationSet>
+<RelationSet id="5">
+<problem value="fracture_SEP_middle phalanx_SEP_right_SEP_finger" begin="234_SEP_272_SEP_294_SEP_306" end="242_SEP_286_SEP_299_SEP_312" status="0" certainty="0" cui="C2852191;C2852355" tui="T037;T037" rank="800;800" code="NO-CODE" sourceType="ICD10CM;ICD10CM"/>
+<problem value="fracture_SEP_middle phalanx_SEP_finger" begin="234_SEP_272_SEP_306" end="242_SEP_286_SEP_312" status="0" certainty="0" cui="C0573988" tui="T037" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="fracture_SEP_distal_SEP_phalanx_SEP_finger" begin="234_SEP_250_SEP_279_SEP_306" end="242_SEP_256_SEP_286_SEP_312" status="0" certainty="0" cui="C0272696" tui="T037" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="fracture_SEP_middle_SEP_right_SEP_finger" begin="234_SEP_272_SEP_294_SEP_306" end="242_SEP_278_SEP_299_SEP_312" status="0" certainty="0" cui="C2852109" tui="T037" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="fracture_SEP_middle phalanx" begin="234_SEP_272" end="242_SEP_286" status="0" certainty="0" cui="S00011585;C0840654" tui="T046;T037" rank="800;753" code="NO-CODE" sourceType="ezDIML2;SNOMEDCTVET"/>
+<problem value="fracture_SEP_distal_SEP_phalanx" begin="234_SEP_250_SEP_279" end="242_SEP_256_SEP_286" status="0" certainty="0" cui="C0840655" tui="T037" rank="753" code="NO-CODE" sourceType="SNOMEDCTVET"/>
+<problem value="transverse fracture" begin="223" end="242" status="0" certainty="0" cui="S00021714;C0332710" tui="T046;T170" rank="800;767" code="NO-CODE" sourceType="ezDIML2;SNOMEDCTUS"/>
+<problem value="of_SEP_fracture of_SEP_of" begin="218_SEP_234_SEP_265" end="220_SEP_245_SEP_267" status="0" certainty="0" cui="S00020651" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="fracture_SEP_distal" begin="234_SEP_250" end="242_SEP_256" status="0" certainty="0" cui="S00014528" tui="T046" rank="800" code="NO-CODE" sourceType="ezDIML2"/>
+<problem value="transverse" begin="223" end="233" status="0" certainty="0" cui="C0205106;C0599157;C0446380" tui="T082;T049;T082" rank="767;575;523" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+<problem value="fracture" begin="234" end="242" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="MTH;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="6">
+<modifier value="middle_SEP_third" begin="272_SEP_300" end="278_SEP_305" status="0" certainty="0" cui="C0442050" tui="T082" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<modifier value="middle" begin="272" end="278" status="0" certainty="0" cui="C0444598;C0205098;C0549183" tui="T082;T082;T082" rank="797;797;151" code="NO-CODE" sourceType="MTH;MTH;CHV"/>
+</RelationSet>
+<RelationSet id="7">
+<anatomicalStructure value="distal_SEP_middle phalanx_SEP_finger" begin="250_SEP_272_SEP_306" end="256_SEP_286_SEP_312" status="0" certainty="0" cui="C0223831" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="middle phalanx_SEP_third finger" begin="272_SEP_300" end="286_SEP_312" status="0" certainty="0" cui="C0223828" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="middle phalanx_SEP_finger" begin="272_SEP_306" end="286_SEP_312" status="0" certainty="0" cui="C1304921" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="distal_SEP_phalanx_SEP_finger" begin="250_SEP_279_SEP_306" end="256_SEP_286_SEP_312" status="0" certainty="0" cui="S20009266;C0223800;C1269782" tui="T046;T023;T023" rank="800;765;692" code="NO-CODE" sourceType="ezDIML2;SNOMEDCTUS;FMA"/>
+<anatomicalStructure value="middle phalanx" begin="272" end="286" status="0" certainty="0" cui="C0576463" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="phalanx_SEP_finger" begin="279_SEP_306" end="286_SEP_312" status="0" certainty="0" cui="C0223792;C1279092" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="distal_SEP_phalanx" begin="250_SEP_279" end="256_SEP_286" status="0" certainty="0" cui="C0576464" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="phalanx" begin="279" end="286" status="0" certainty="0" cui="C0222682" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="8">
+<modifier value="right" begin="294" end="299" status="0" certainty="0" cui="C0205090;C0035621;C1266184" tui="T082;T080;T191" rank="797;792;599" code="NO-CODE" sourceType="MTH;MSH;OMIM"/>
+</RelationSet>
+<RelationSet id="9">
+<anatomicalStructure value="middle_SEP_third finger" begin="272_SEP_300" end="278_SEP_312" status="0" certainty="0" cui="C0230393" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="middle_SEP_finger" begin="272_SEP_306" end="278_SEP_312" status="0" certainty="0" cui="C1305276" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="finger" begin="306" end="312" status="0" certainty="0" cui="C0016129;C1281584;C0549188" tui="T029;T023;T081" rank="797;765;724" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="10">
+<medicalDevice value="surgical wire" begin="330" end="343" status="0" certainty="0" cui="C0005978" tui="T074" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="wire" begin="339" end="343" status="0" certainty="0" cui="C1705105" tui="T073" rank="575" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="9" begin="345" end="420">
+<Sentence sentNo="5" begin="345" end="420" sentText="Close correlation with the appearance at real-time fluoroscopy recommended.">
+<RelationSet id="11">
+<procedure value="fluoroscopy" begin="396" end="407" status="0" certainty="0" cui="C0016356" tui="T060" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="10" begin="421" end="421">
+</Paragraph>
+<Paragraph pgNo="11" begin="422" end="450">
+<Sentence sentNo="6" begin="422" end="450" sentText="Final signature by: DOC4, MD">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>
