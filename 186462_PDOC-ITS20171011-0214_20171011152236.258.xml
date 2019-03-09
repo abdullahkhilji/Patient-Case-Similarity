@@ -1,0 +1,81 @@
+<ezNLP>
+<Section value="NOTE" begin="0" end="4" secBegin="4" secEnd="4">
+<Paragraph pgNo="1" begin="0" end="4">
+<Sentence sentNo="1" begin="0" end="4" sentText="NOTE">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="Date of Service" begin="5" end="21" secBegin="21" secEnd="34">
+<Paragraph pgNo="2" begin="5" end="34">
+<Sentence sentNo="2" begin="5" end="34" sentText="Date of Service: Oct 11, 2017">
+</Sentence>
+</Paragraph>
+</Section>
+<Section value="NOTE" begin="35" end="35" secBegin="35" secEnd="276">
+<Paragraph pgNo="3" begin="35" end="43">
+<Sentence sentNo="3" begin="35" end="43" sentText="Comments">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="4" begin="44" end="196">
+<Sentence sentNo="4" begin="44" end="196" sentText="Pt is ambulating w/out difficulty, belching, voiding urine w/out difficulty (400 +200; PVR obtained w/ residual average of 10cc), she is tolerating diet">
+<RelationSet id="1">
+<problem value="belching" begin="79" end="87" status="0" certainty="0" cui="C0014724" tui="T184" rank="791" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2">
+<problem value="voiding_SEP_difficulty" begin="89_SEP_109" end="96_SEP_119" status="0" certainty="0" cui="C0241705" tui="T184" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="5" begin="197" end="197">
+</Paragraph>
+<Paragraph pgNo="6" begin="198" end="201">
+<Sentence sentNo="5" begin="198" end="201" sentText="PE:">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="7" begin="202" end="217">
+<Sentence sentNo="6" begin="202" end="217" sentText="Gen: A&amp;Ox3, NAD">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="8" begin="218" end="260">
+<Sentence sentNo="7" begin="218" end="260" sentText="Abd: Soft, nontender, nondistended, pos BS">
+<RelationSet id="3">
+<modifier value="Soft" begin="223" end="227" status="0" certainty="0" cui="C0205358;C0678561" tui="T080;T070" rank="797;475" code="NO-CODE" sourceType="MTH;AOD"/>
+</RelationSet>
+<RelationSet id="3">
+<modifier value="nontender" begin="229" end="238" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="3">
+<modifier value="nondistended" begin="240" end="252" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="9" begin="261" end="275">
+<Sentence sentNo="8" begin="261" end="275" sentText="Ext: nontender">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="10" begin="276" end="276">
+</Paragraph>
+</Section>
+<Section value="A/P" begin="277" end="281" secBegin="281" secEnd="440">
+<Paragraph pgNo="11" begin="277" end="281">
+<Sentence sentNo="9" begin="277" end="281" sentText="A/P:">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="12" begin="282" end="299">
+<Sentence sentNo="10" begin="282" end="299" sentText="-pt to be dc home">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="13" begin="300" end="345">
+<Sentence sentNo="11" begin="300" end="345" sentText="-pt has f/u w/ Dr. V Durgam on Monday at 11am">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="14" begin="346" end="380">
+<Sentence sentNo="12" begin="346" end="380" sentText="-discussed w/ senior, Dr. Bachlani">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="15" begin="381" end="439">
+<Sentence sentNo="13" begin="381" end="439" sentText="-Discussed in detail w/ attending, a/p as per Dr. V Durgam">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>
